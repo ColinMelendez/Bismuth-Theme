@@ -1,5 +1,7 @@
 {
 	"name": "Material Synthwave Super-Semantic",
+	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.background": "#171520",
 		"activityBar.foreground": "#ffffffcc", // -- editor 4 -- general - translucent white
@@ -163,18 +165,8 @@
 				"string.quoted.docstring"
 			],
 			"settings": {
-				"foreground": "#676E95", // -- primary 1 -- comment - trans grey
+				"foreground": "#676E95", // -- primary 0 -- comment - trans grey
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"string constant.other.placeholder"
-			],
-			"settings": {
-				"foreground": "#A6ACCD", // -- primary 2 -- variable property - light grey
 			}
 		},
 		{
@@ -203,37 +195,64 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#FF5370" // -- primary 3 -- function parameters - bright red
+				"foreground": "#73e8b3" // -- primary 11 -- function parameters - bright mint
 			}
 		},
 		{
-			"name": "Invalid.depreciated",
+			"name": "Invalid.depreciated (mark for depreciated features)",
 			"scope": [
 				"invalid.deprecated"
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
-			"name": "Keywords, Storage",
+			"name": "Primary keywords",
 			"scope": [
-				"keyword",
+				// "keyword", // this overrides too many things as a semantic token.
 				"storage.type",
 				"storage.modifier",
+				"keyword.other.rust",
+				"keyword.operator.math",
+				"keyword.operator.namespace",
+				"keyword.operator.key-value",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
+				"fontStyle": ""
 			}
 		},
 		{
-			"name": "fallback (depreciated)",
+			"name": "fallback (depreciated)", // ?
 			"scope": [
 				"Keyword",
 				"Storage"
 			],
 			"settings": {
 				"fontStyle": "italic" // x
+			}
+		},
+		{
+			"name": "decorators (macro stuff)",
+			"scope": [
+				"entity.name.decorator",
+			],
+			"settings": {
+				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
+				"fontStyle": "underline"
+			}
+		},
+		{
+			// Calling out all of these as a whole class because they tend to step all over the syntax highlighter
+			// and it helps me to be able to visually separate them for extra attention
+			"name": "meta attributes (macro stuff)",
+			"scope": [
+				"meta.attribute.rust",
+			],
+			"settings": {
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -250,9 +269,12 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.operator.access",
 			],
 			"settings": {
+				// alts: "#89DDFF" (less saturation)
+				//		 "#58e2eb" (more saturation)
 				"foreground": "#89DDFF", // -- primary 5 -- operators & punctuation  - turquoise blue
 			}
 		},
@@ -266,14 +288,93 @@
 			}
 		},
 		{
-			"name": "Tag",
+			// specially called-out keywords for assignments and generation
+			"name": "special operators - assignment",
 			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"keyword.operator.assignment",
+				"storage.type.function.arrow",
+				"keyword.operator.new",
+				"keyword.operator.arrow.skinny",
+				"keyword.operator.arrow.fat",
+				"keyword.operator.borrow", // rust borrow symbol
 			],
 			"settings": {
-				"foreground": "#D67388", // -- primary 7 -- tags & immutable variables -  faded rusty red
+				"foreground": "#d22eff", // special color - radioactive purple
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			// logical operators (and, or, not)
+			// does not include comparison operators (==, !=, <, >, etc.)
+			// Logical operators are relevant to specially call-out because
+			// they often have specific secondary meanings in different languages
+			// (like undefined assertions or bitwise operations), and also because
+			// the singular ! operator is difficult too see
+			"name": "special operators - logical",
+			"scope": [
+				"keyword.operator.logical"
+			],
+			"settings": {
+				"foreground": "#ac71ff", // special color - slightly stronger keyword purple
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "identifiers in import statements",
+			"scope": [
+				"meta.import variable.other.readwrite.alias",
+				// "selfKeyword" // was always being overridden
+				"variable.other.enummember",
+			],
+			"settings": {
+				"foreground": "#ea7790"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": [
+				// immutable properties of objects (sorta their own domain of literals)
+				"support.constant.property",
+				// moved the html / jsx tag color to separate it from local constants visually
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter",
+				// react/solid components as types for JSX tags (font modified below)
+				"support.class.component", // 1
+			],
+			"settings": {
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				// react/solid components as types for JSX tags (inherits color from above)
+				"support.class.component", // 2
+			],
+			"settings": {
+				"fontStyle": "underline" // no italic
+			}
+		},
+		{
+			"scope": [
+				// moved the html / jsx tag color to separate it from local constants visually
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter",
+			],
+			"settings": {
+				"fontStyle": "italic underline" // both italic and underline
+			}
+		},
+		{
+			"scope": [
+				// Text literals inside of HTML and JSX blocks
+				"meta.jsx.children",
+				"text.html.derivative",
+			],
+			"settings": {
+				"foreground": "#f0feff", // special - white
 			}
 		},
 		{
@@ -283,21 +384,26 @@
 				"meta.function-call",
 				"variable.function",
 				"keyword.other.special-method",
+				"meta.function-call.generic",
+				"meta.selector.css",
+				"entity.name.function.tsx",
+				"entity.name.function.rust",
+				"method",
 				"support.function",
 			],
 			"settings": {
 				"foreground": "#82AAFF", // -- primary 4 -- functions & methods - sky blue
 			}
 		},
-		{
-			"name": "Built-in Functions",
-			"scope": [
-				"support.function"
-			],
-			"settings": {
-				"fontStyle": "italic" // built in functions are italic
-			}
-		},
+		// {
+		// 	"name": "Built-in Functions",
+		// 	"scope": [
+		// 		"support.function"
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": "italic" // built in functions are italic
+		// 	}
+		// },
 		{
 			"name": "Block level immutable variables and objects",
 			"scope": [
@@ -307,12 +413,23 @@
 				"variable.other.constant.object",
 			],
 			"settings": {
-				"foreground": "#D67388", // -- primary 7 -- tags & immutable variables -  faded rusty red
+				"foreground": "#99b9b0", // -- primary 7 -- tags & immutable variables -  light coral red
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant",
+				"variable.other.constant.object",
+			],
+			"settings": {
+				"fontStyle": "italic" // from above, italic variants
 			}
 		},
 		{
 			"name": "Block level mutable (read-write) variables",
 			"scope": [
+				"variable",
+                "string constant.other.placeholder",
 				"variable.other.readwrite"
 			],
 			"settings": {
@@ -323,6 +440,7 @@
 			"name": "built in object variables that act more like operators",
 			"scope": [
 				"support.other.variable",
+				 "string.other.link"
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -339,19 +457,9 @@
 				"constant.escape",
 				"keyword.other.unit",
 				"keyword.other",
-				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#73e8b3" // -- primary 11 -- numeric & keyword literals - bright mint
-			}
-		},
-		{
-			"name": "Constant (read-only) object property values",
-			"scope": [
-				"support.constant.property"
-			],
-			"settings": {
-				"foreground": "#A6CDB6" , // -- primary 12 -- immutable property values - light grey green
+				"foreground": "#f05776" // -- primary 3 -- numeric & keyword literals - bright red
 			}
 		},
 		{
@@ -367,23 +475,43 @@
 				"text.html.derivative",
 			],
 			"settings": {
-				"foreground": "#C3E88D", // -- primary 13 -- string literals - soft lime green,
+				"foreground": "#b4dd77", // -- primary 13 -- string literals - soft lime green,
 				"fontStyle": "" // none - clears inherited fontStyle
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Classes, types, traits, structs, Support",
 			"scope": [
 				"entity.name",
-				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				// "support.type.sys-types"
+				// "entity.name.type.struct",
+
 			],
 			"settings": {
 				"foreground": "#f6c468", // -- primary 1 -- user & library types - gold
+			}
+		},
+		{
+			// distinction for structs (methodless and often-instantiated, similar to constants in that way)
+			"scope": [
+				"entity.name.type.struct",
+			],
+			"settings": {
+				"fontStyle": "italic", // -- primary 1 modifier
+			}
+		},
+		{
+			// distinction for namespaces
+			"scope": [
+				"entity.name.namespace",
+			],
+			"settings": {
+				"foreground": "#b64d24f1", // unique - rusty red-brown
+				"fontStyle": "underline",
 			}
 		},
 		{
@@ -391,6 +519,8 @@
 			"scope": [
 				"support.type",
 				"support.type.sys-types",
+				"support.type.python",
+				"support.class",
 			],
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
@@ -415,16 +545,17 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
 			],
 			"settings": {
-				"foreground": "#FF5370", // -- primary 3 -- function parameters - bright red
+				"foreground": "#89DDFF" // -- primary 5 -- operators & punctuation  - turquoise blue
 			}
 		},
 		{
 			"name": "Language methods",
 			"scope": [
-				"variable.language"
+				"variable.language",
+				"variable.language.self",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -495,7 +626,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#C3E88D", // -- primary 13 -- string literals - soft lime green
+				"foreground": "#b4dd77", // -- primary 13 -- string literals - soft lime green
 			}
 		},
 		{
@@ -563,7 +694,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#D67388", // -- primary 7 -- tags & immutable variables -  faded rusty red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
 			}
 		},
 		{
@@ -626,7 +757,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D67388", // -- primary 7 -- tags & immutable variables -  faded rusty red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
 			}
 		},
 		{
@@ -644,7 +775,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#A6CDB6" , // -- primary 12 -- immutable property values - light grey green
+				"foreground": "#A6CDB6" , // -- primary 12 -- just this now - light grey green
 			}
 		},
 		{
@@ -683,7 +814,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D", // -- primary 13 -- string literals - soft lime green
+				"foreground": "#b4dd77", // -- primary 13 -- string literals - soft lime green
 			}
 		},
 		{
@@ -693,7 +824,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#D67388", // -- primary 7 -- tags & immutible variables -  faded rusty red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutible variables -  light coral red
 			}
 		},
 		{
@@ -704,7 +835,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#D67388", // -- primary 7 -- tags & immutible variables -  faded rusty red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutible variables -  light coral red
 			}
 		},
 		{
@@ -719,17 +850,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#D67388", // -- primary 7 -- tags & immutible variables -  faded rusty red
-			}
-		},
-		{
-			"name": "Markup - Underline",
-			"scope": [
-				"markup.underline"
-			],
-			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#A6CDB6" , // -- primary 12 -- immutable property values - light grey green
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutible variables -  light coral red
 			}
 		},
 		{
