@@ -165,7 +165,7 @@
 				"string.quoted.docstring"
 			],
 			"settings": {
-				"foreground": "#676E95", // -- primary 0 -- comment - trans grey
+				"foreground": "#676e95ae", // -- primary 0 -- comment - trans grey
 				"fontStyle": "italic"
 			}
 		},
@@ -299,8 +299,8 @@
 				"keyword.operator.borrow", // rust borrow symbol
 			],
 			"settings": {
-				"foreground": "#d22eff", // special color - radioactive purple
-				"fontStyle": "italic bold"
+				"foreground": "#d84bff", // special color - radioactive purple
+				// "fontStyle": "italic bold"
 			}
 		},
 		{
@@ -327,7 +327,8 @@
 				"variable.other.enummember",
 			],
 			"settings": {
-				"foreground": "#ea7790"
+				"foreground": "#e8708a",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -475,7 +476,7 @@
 				"text.html.derivative",
 			],
 			"settings": {
-				"foreground": "#b4dd77", // -- primary 13 -- string literals - soft lime green,
+				"foreground": "#b4da7b", // -- primary 13 -- string literals - soft lime green,
 				"fontStyle": "" // none - clears inherited fontStyle
 			}
 		},
@@ -489,10 +490,11 @@
 				"markup.changed.git_gutter",
 				// "support.type.sys-types"
 				// "entity.name.type.struct",
+				// "entity.name.namespace",
 
 			],
 			"settings": {
-				"foreground": "#f6c468", // -- primary 1 -- user & library types - gold
+				"foreground": "#e6c274", // -- primary 1 -- user & library types - gold
 			}
 		},
 		{
@@ -510,8 +512,7 @@
 				"entity.name.namespace",
 			],
 			"settings": {
-				"foreground": "#b64d24f1", // unique - rusty red-brown
-				"fontStyle": "underline",
+				"fontStyle": "underline", // primary 1 modifier
 			}
 		},
 		{
@@ -525,7 +526,7 @@
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
 			}
-		},
+		},// succeed
 		{
 			"name": "CSS Class and Support (as built-in types)",
 			"scope": [
@@ -599,7 +600,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f6c468", // -- primary 1 -- user classes - gold
+				"foreground": "#e6c274", // -- primary 1 -- user classes - gold
 			}
 		},
 		{
@@ -608,7 +609,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#f6c468", // -- primary 1 -- user classes - gold
+				"foreground": "#e6c274", // -- primary 1 -- user classes - gold
 			}
 		},
 		{
@@ -626,7 +627,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#b4dd77", // -- primary 13 -- string literals - soft lime green
+				"foreground": "#b4da7b", // -- primary 13 -- string literals - soft lime green
 			}
 		},
 		{
@@ -712,7 +713,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f6c468", // -- primary 1 -- user classes - gold
+				"foreground": "#e6c274", // -- primary 1 -- user classes - gold
 			}
 		},
 		{
@@ -739,7 +740,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#e6967e", // -- primary 8 -- mutable variables -  faded orange
+				"foreground": "#df8670", // -- primary 8 -- mutable variables -  faded orange
 			}
 		},
 		{
@@ -814,7 +815,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#b4dd77", // -- primary 13 -- string literals - soft lime green
+				"foreground": "#b4da7b", // -- primary 13 -- string literals - soft lime green
 			}
 		},
 		{
