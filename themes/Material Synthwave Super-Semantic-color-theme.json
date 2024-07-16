@@ -305,7 +305,9 @@
 				"keyword.operator.arrow.skinny",
 				"keyword.operator.arrow.fat",
 				"keyword.operator.borrow", // rust borrow symbol
-				"keyword.operator.optional",
+				"keyword.operator.optional",// "?" non-null unwrap in most langs (like js)
+				"keyword.operator.question", // "?" non-null unwrap in rust
+				"keyword.operator.dereference", // "*" pointer dereference
 			],
 			"settings": {
 				"foreground": "#d84bff", // special color - radioactive purple
@@ -346,11 +348,13 @@
 				// immutable properties of objects (sorta their own domain of literals)
 				"support.constant.property",
 				// moved the html / jsx tag color to separate it from local constants visually
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter",
+				"entity.name.tag", // a1
+				"meta.tag.sgml", // a2
+				"markup.deleted.git_gutter", // a3
 				// react/solid components as types for JSX tags (font modified below)
-				"support.class.component", // 1
+				"support.class.component", // a4
+				// special global constants that use a convention of being all-caps (like rust)
+				"constant.other.caps", // a5
 			],
 			"settings": {
 				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
@@ -360,7 +364,7 @@
 		{
 			"scope": [
 				// react/solid components as types for JSX tags (inherits color from above)
-				"support.class.component", // 2
+				"support.class.component", // a4
 			],
 			"settings": {
 				"fontStyle": "underline" // no italic
@@ -369,12 +373,21 @@
 		{
 			"scope": [
 				// moved the html / jsx tag color to separate it from local constants visually
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter",
+				"entity.name.tag", // a1
+				"meta.tag.sgml", // a2
+				"markup.deleted.git_gutter", // a3
 			],
 			"settings": {
 				"fontStyle": "italic underline" // both italic and underline
+			}
+		},
+		{
+			"scope": [
+				// global constants that use a convention of being all-caps (like rust)
+				"constant.other.caps", // a5
+			],
+			"settings": {
+				"fontStyle": "" // none - clears inherited fontStyle
 			}
 		},
 		{
