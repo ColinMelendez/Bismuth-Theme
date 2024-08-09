@@ -1051,8 +1051,9 @@
 	],
 	"semanticTokenColors": {
 		// specific-context patch colors
-		"tomlTableKey": { // ideally matches "support.type" so toml files look nice.
-			"foreground": "#f0e8bf"
+		"tomlTableKey": { // intended to look like crate names
+			"foreground": "#e6c274",
+			"fontStyle": "underline"
 		},
 		"tomlArrayKey": {
 			"foreground": "#99b9b0"
