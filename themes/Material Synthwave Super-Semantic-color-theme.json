@@ -255,13 +255,13 @@
 		{
 			// Calling out all of these as a whole class because they tend to step all over the syntax highlighter
 			// and it helps me to be able to visually separate them for extra attention
-			"name": "meta attributes (macro stuff)",
-			"scope": [
-				"meta.attribute.rust",
-			],
-			"settings": {
-				"fontStyle": "underline"
-			}
+			// "name": "meta attributes (macro stuff)",
+			// "scope": [
+			// 	"meta.attribute.rust",
+			// ],
+			// "settings": {
+			// 	"fontStyle": "underline"
+			// }
 		},
 		{
 			"name": "Operators, Punctuation, html brackets, Misc",
@@ -1059,8 +1059,13 @@
 			"fontStyle": "italic"
 		},
 		"procMacro": {
-			"foreground": "#AC71FF",
+			"foreground": "#82AAFF",
 			"fontStyle": "underline"
 		},
+		"macro": {
+			"foreground": "#82AAFF",
+			"fontStyle": "underline"
+		},
+
 	}
 }
