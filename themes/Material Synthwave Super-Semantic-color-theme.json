@@ -253,17 +253,6 @@
 			}
 		},
 		{
-			// Calling out all of these as a whole class because they tend to step all over the syntax highlighter
-			// and it helps me to be able to visually separate them for extra attention
-			// "name": "meta attributes (macro stuff)",
-			// "scope": [
-			// 	"meta.attribute.rust",
-			// ],
-			// "settings": {
-			// 	"fontStyle": "underline"
-			// }
-		},
-		{
 			"name": "Operators, Punctuation, html brackets, Misc",
 			"scope": [
 				"keyword.control",
@@ -758,7 +747,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF5370", // -- primary 3 -- function parameters - bright red
+				"foreground": "#df8670", // -- primary 3 -- function parameters - bright red
 			}
 		},
 		{
@@ -767,7 +756,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#df8670", // -- primary 8 -- mutable variables -  faded orange
+				"foreground": "#82AAFF", // -- primary 8 -- mutable variables -  faded orange
 			}
 		},
 		{
@@ -776,7 +765,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#82AAFF", // -- primary 4 -- functions & methods - sky blue
+				"foreground": "#ea7790", // -- primary 4 -- functions & methods - sky blue
 			}
 		},
 		{
@@ -785,7 +774,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
+				"foreground": "#C792EA", // -- primary 7 -- tags & immutable variables -  light coral red
 			}
 		},
 		{
@@ -794,7 +783,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
+				"foreground": "#A6CDB6", // -- primary 6 -- keywords & symbols - cs lavender
 			}
 		},
 		{
@@ -803,7 +792,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#A6CDB6" , // -- primary 12 -- just this now - light grey green
+				"foreground": "#FFFFFF" , // -- primary 12 -- just this now - light grey green
 			}
 		},
 		{
@@ -1066,6 +1055,13 @@
 			"foreground": "#82AAFF",
 			"fontStyle": "underline"
 		},
+		"attributeBracket": {
+			"fontStyle": ""
+		},
+		"derive": {
+			"foreground": "#f0e8bf",
+		}
+
 
 	}
 }
