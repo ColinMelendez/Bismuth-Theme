@@ -438,7 +438,6 @@
 				"source.cpp meta.block variable.other",
 				"variable.other.constant",
 				"variable.other.constant.object",
-				"meta.table.inline.toml",
 			],
 			"settings": {
 				"foreground": "#99b9b0", // -- primary 7 -- tags & immutable variables -  light coral red
@@ -1056,7 +1055,8 @@
 			"fontStyle": "underline"
 		},
 		"tomlArrayKey": {
-			"foreground": "#99b9b0"
+			"foreground": "#f0e8bf",
+			"fontStyle": "italic"
 		},
 	}
 }
