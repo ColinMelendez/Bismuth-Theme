@@ -225,6 +225,7 @@
 				"keyword.operator.expression.instanceof",
 				"keyword.operator.arithmetic",
 				"keyword.operator.pipe",
+				"support.type.property-name.table.toml",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -278,6 +279,9 @@
 				"keyword.other.template",
 				"keyword.other.substitution",
 				"keyword.operator.access",
+				"punctuation.definition.table.inline.toml",
+				"punctuation.separator.table.inline.toml",
+				"punctuation.eq.toml",
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
@@ -288,7 +292,7 @@
 		{
 			"name": "control-flow operators",
 			"scope": [
-				"keyword.control"
+				"keyword.control",
 			],
 			"settings": {
 				"fontStyle": "italic" // control flow operators are italic
@@ -463,7 +467,7 @@
 			"name": "built in object variables that act more like operators",
 			"scope": [
 				"support.other.variable",
-				 "string.other.link"
+				"string.other.link"
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -495,7 +499,8 @@
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"text.html.derivative",
+				"string.quoted.single.basic.line.toml",
+				// "text.html.derivative",
 			],
 			"settings": {
 				"foreground": "#b4da7b", // -- primary 13 -- string literals - soft lime green,
@@ -523,6 +528,7 @@
 			// distinction for structs (methodless and often-instantiated, similar to constants in that way)
 			"scope": [
 				"entity.name.type.struct",
+				"meta.table.inline.toml",
 			],
 			"settings": {
 				"fontStyle": "italic", // -- primary 1 modifier
@@ -618,7 +624,7 @@
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic entity.other.attribute-name",
 			],
 			"settings": {
 				"fontStyle": "italic",
