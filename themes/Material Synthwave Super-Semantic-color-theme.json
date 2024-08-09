@@ -1058,5 +1058,9 @@
 			"foreground": "#f0e8bf",
 			"fontStyle": "italic"
 		},
+		"procMacro": {
+			"foreground": "#AC71FF",
+			"fontStyle": "underline"
+		},
 	}
 }
