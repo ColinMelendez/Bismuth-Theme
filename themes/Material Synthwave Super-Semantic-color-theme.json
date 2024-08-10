@@ -1063,7 +1063,7 @@
 			"foreground": "#f0e8bf",
 		},
 		"builtinAttribute": {
-			"foreground": "#82AAFF",
+			"foreground": "#C792EA",
 			"fontStyle": "italic underline"
 		},
 		"deriveHelper": {
