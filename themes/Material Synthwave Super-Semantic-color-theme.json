@@ -226,6 +226,7 @@
 				"keyword.operator.arithmetic",
 				"keyword.operator.pipe",
 				"support.type.property-name.table.toml",
+				"meta.attribute.rust",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -233,13 +234,12 @@
 			}
 		},
 		{
-			"name": "fallback (depreciated)", // ?
+			"name": "cover styles",
 			"scope": [
-				"Keyword",
-				"Storage"
+				"meta.attribute.rust",
 			],
 			"settings": {
-				"fontStyle": "italic" // x
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1056,11 +1056,20 @@
 			"fontStyle": "underline"
 		},
 		"attributeBracket": {
+			"foreground": "#89DDFF", // this might mes some things up
 			"fontStyle": ""
 		},
 		"derive": {
 			"foreground": "#f0e8bf",
-		}
+		},
+		"builtinAttribute": {
+			"fontStyle": "italic"
+		},
+		"deriveHelper": {
+			"foreground": "#C792EA",
+			"fontStyle": "italic underline"
+		},
+
 
 
 	}
