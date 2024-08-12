@@ -271,6 +271,7 @@
 				"punctuation.definition.table.inline.toml",
 				"punctuation.separator.table.inline.toml",
 				"punctuation.eq.toml",
+				"keyword.operator.macro.dollar.rust",
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
@@ -783,7 +784,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#A6CDB6", // -- primary 6 -- keywords & symbols - cs lavender
+				"foreground": "#89DDFF", // -- primary 5 -- operators & punctuation  - turquoise blue
 			}
 		},
 		{
@@ -1070,5 +1071,8 @@
 			"foreground": "#C792EA",
 			"fontStyle": "italic underline"
 		},
+		"static": {
+			"foreground": "#f4704f",
+		}
 	}
 }
