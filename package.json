@@ -2,7 +2,7 @@
   "name": "material-synthwave-super-semantic",
   "displayName": "Material Synthwave Super-Semantic",
   "description": "A Material-based theme that combines fine-grained semantic distinctness and language edge-cases with a dark, warm-leaning, easy-on-the-eyes color pallette. Good for breaking-down large, unfamiliar codebases. ",
-  "version": "0.3.17",
+  "version": "0.3.18",
   "engines": {
     "vscode": "^1.90.0"
   },

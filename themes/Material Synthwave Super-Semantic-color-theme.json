@@ -278,6 +278,7 @@
 				"meta.delimiter.comma.js",
 				"meta.brace.round.js",
 				"meta.function.js",
+				"meta.method-call.with-arguments.js",
 
 			],
 			"settings": {
