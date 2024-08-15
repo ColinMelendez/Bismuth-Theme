@@ -227,6 +227,7 @@
 				"keyword.operator.pipe",
 				"support.type.property-name.table.toml",
 				"meta.attribute.rust",
+				"keyword.operator.relational.js",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -272,6 +273,12 @@
 				"punctuation.separator.table.inline.toml",
 				"punctuation.eq.toml",
 				"keyword.operator.macro.dollar.rust",
+				"meta.brace.curly.js",
+				"keyword.operator.accessor.js",
+				"meta.delimiter.comma.js",
+				"meta.brace.round.js",
+				"meta.function.js",
+
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
