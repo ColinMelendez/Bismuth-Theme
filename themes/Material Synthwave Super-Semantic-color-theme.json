@@ -279,6 +279,7 @@
 				"meta.brace.round.js",
 				"meta.function.js",
 				"meta.method-call.with-arguments.js",
+				"keyword.operator.range",
 
 			],
 			"settings": {
@@ -548,6 +549,7 @@
 				"entity.name.namespace",
 			],
 			"settings": {
+				"foreground": "#81898df8",
 				"fontStyle": "underline", // primary 1 modifier
 			}
 		},
@@ -1094,7 +1096,7 @@
 			"foreground": "#f4704f",
 		},
 		"interface": {
-			"foreground": "#e4e67e",
+			"foreground": "#f0e8bf",
 			"fontStyle": "italic"
 		},
 		"enum": {
