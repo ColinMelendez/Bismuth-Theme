@@ -437,6 +437,7 @@
 				"source.cpp meta.block variable.other",
 				"variable.other.constant",
 				"variable.other.constant.object",
+				"variable.other.rust",
 			],
 			"settings": {
 				"foreground": "#99b9b0", // -- primary ? -- constants - grey
@@ -460,6 +461,16 @@
 			],
 			"settings": {
 				"foreground": "#e6967e", // -- primary 8 -- mutable variables -  faded orange <alt
+			}
+		},
+		{
+			"name": "Inline Global Constants",
+			"scope": [
+				"constant.other.caps",
+			],
+			"settings": {
+				"foreground": "#6985ae",
+
 			}
 		},
 		// {
@@ -549,7 +560,7 @@
 				"entity.name.namespace",
 			],
 			"settings": {
-				"foreground": "#81898df8",
+				"foreground": "#707679f8",
 				"fontStyle": "underline", // primary 1 modifier
 			}
 		},
@@ -1093,7 +1104,11 @@
 			"fontStyle": "italic underline"
 		},
 		"static": {
-			"foreground": "#f4704f",
+			"foreground": "#6985ae",
+		},
+		"const": {
+			"foreground": "#6985ae",
+			"fontStyle": "italic"
 		},
 		"interface": {
 			"foreground": "#f0e8bf",
@@ -1102,5 +1117,9 @@
 		"enum": {
 			"fontStyle": "bold"
 		},
+		"variable.mutable": {
+			"foreground": "#ef7354",
+			"fontStyle": "italic"
+		}
 	}
 }
