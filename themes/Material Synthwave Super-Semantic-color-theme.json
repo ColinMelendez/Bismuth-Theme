@@ -35,9 +35,9 @@
 		"editor.wordHighlightStrongBorder": "#47ccf583",
 		"editorBracketMatch.background": "#34294f66",
 		"editorBracketMatch.border": "#495495",
-		"editorBracketPairGuide.background1": "#ffda7386",
-		"editorBracketPairGuide.background2": "#cf53ee77",
-		"editorBracketPairGuide.background3": "#4478fa83",
+		"editorBracketPairGuide.background1": "#ffda7386",	// -- edit or bracket pair line color 1
+		"editorBracketPairGuide.background2": "#cf53ee77",	// -- edit or bracket pair line color 2
+		"editorBracketPairGuide.background3": "#4478fa83",	// -- edit or bracket pair line color 3
 		"editorCodeLens.foreground": "#ffffff7c", 	// -- editor 5 -- general - translucent colorless
 		"editorCursor.background": "#241b2f",		// -- editor 6 -- workbench background - dark plum
 		"editorCursor.foreground": "#f97e72", 		// -- editor 1 -- core ui orange - core orange
