@@ -227,7 +227,14 @@
 				"keyword.operator.pipe",
 				"support.type.property-name.table.toml",
 				"meta.attribute.rust",
-				"keyword.operator.relational.js",
+				"keyword.operator.relation bal.js",
+				"keyword.operator.relational",
+				"keyword.operator.expression.void",
+				"keyword.operator.expression.typeof",
+				"keyword.operator.expression.of",
+				"keyword.operator.decrement",
+				"keyword.operator.increment",
+				"keyword.generator.asterisk",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -280,6 +287,8 @@
 				"meta.function.js",
 				"meta.method-call.with-arguments.js",
 				"keyword.operator.range",
+				"keyword.operator.ternary",
+				"keyword.operator.spread",
 
 			],
 			"settings": {
