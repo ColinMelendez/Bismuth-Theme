@@ -555,6 +555,16 @@
 			}
 		},
 		{
+			"name": "special tag types",
+			"scope": [
+				"entity.name.tag.yaml",
+			],
+			"settings": {
+				"foreground": "#e6c274",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			// distinction for structs (methodless and often-instantiated, similar to constants in that way)
 			"scope": [
 				"entity.name.type.struct",
@@ -883,7 +893,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ea7790", // -- primary 7 -- tags & immutible variables -  light coral red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
 			}
 		},
 		{
@@ -894,7 +904,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ea7790", // -- primary 7 -- tags & immutible variables -  light coral red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
 			}
 		},
 		{
@@ -909,7 +919,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ea7790", // -- primary 7 -- tags & immutible variables -  light coral red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
 			}
 		},
 		{
