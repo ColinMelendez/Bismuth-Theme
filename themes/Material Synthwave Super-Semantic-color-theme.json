@@ -610,7 +610,6 @@
 				"source.stylus support.type.property-name",
 				"source.postcss support.type.property-name",
 				"meta.property-name.media-query",
-				"meta.property-value.media-query",
 			],
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
@@ -632,6 +631,7 @@
 			"scope": [
 				"variable.language",
 				"variable.language.self",
+				"meta.property-value.media-query",
 			],
 			"settings": {
 				"fontStyle": "italic",
