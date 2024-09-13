@@ -320,6 +320,8 @@
 				"keyword.operator.optional",// "?" non-null unwrap in most langs (like js)
 				"keyword.operator.question", // "?" non-null unwrap in rust
 				"keyword.operator.dereference", // "*" pointer dereference
+				"keyword.operator.existential",
+				"keyword.operator.nullcoalesce",
 			],
 			"settings": {
 				"foreground": "#d84bff", // special color - radioactive purple
