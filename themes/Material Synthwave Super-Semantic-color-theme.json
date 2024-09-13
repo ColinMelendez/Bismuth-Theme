@@ -235,6 +235,8 @@
 				"keyword.operator.decrement",
 				"keyword.operator.increment",
 				"keyword.generator.asterisk",
+				"meta.at-rule",
+
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -427,6 +429,7 @@
 				"entity.name.function.rust",
 				"method",
 				"support.function",
+				"meta.property-value.scss",
 			],
 			"settings": {
 				"foreground": "#82AAFF", // -- primary 4 -- functions & methods - sky blue
@@ -605,7 +608,9 @@
 				"source.scss support.type.property-name",
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
+				"source.postcss support.type.property-name",
+				"meta.property-name.media-query",
+				"meta.property-value.media-query",
 			],
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
