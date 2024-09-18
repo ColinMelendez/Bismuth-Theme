@@ -236,7 +236,11 @@
 				"keyword.operator.increment",
 				"keyword.generator.asterisk",
 				"meta.at-rule",
-
+				"keyword.package",
+				"keyword.var",
+				"keyword.function",
+				"keyword.type",
+				"keyword.struct",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -324,6 +328,7 @@
 				"keyword.operator.dereference", // "*" pointer dereference
 				"keyword.operator.existential",
 				"keyword.operator.nullcoalesce",
+				"keyword.operator.address",
 			],
 			"settings": {
 				"foreground": "#d84bff", // special color - radioactive purple
@@ -1130,10 +1135,10 @@
 			"fontStyle": "italic underline"
 		},
 		"static": {
-			"foreground": "#6985ae",
+			"foreground": "#6b8bba",
 		},
 		"const": {
-			"foreground": "#6985ae",
+			"foreground": "#6b8bba",
 			"fontStyle": "italic"
 		},
 		"interface": {
