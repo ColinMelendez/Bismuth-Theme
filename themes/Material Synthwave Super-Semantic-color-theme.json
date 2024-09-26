@@ -241,6 +241,8 @@
 				"keyword.function",
 				"keyword.type",
 				"keyword.struct",
+				"keyword.channel",
+				"keyword.const",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -329,6 +331,7 @@
 				"keyword.operator.existential",
 				"keyword.operator.nullcoalesce",
 				"keyword.operator.address",
+				"keyword.operator.channel",
 			],
 			"settings": {
 				"foreground": "#d84bff", // special color - radioactive purple
