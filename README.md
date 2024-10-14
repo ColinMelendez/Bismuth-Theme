@@ -1,8 +1,10 @@
 # Bismuth
 
-A theme that aims to provide fine-grained semantic distinctions while being easy-on-the-eyes with a warm-leaning color palette WHILE ALSO remaining colorful and enjoyable to look at. Does it succeed? ehhhhhhh... it can vary. But it does generally help with breaking down big dense repos or learning a new language by organizing the tokens into some pretty fine-grained categories. Originally based off of the material synthwave theme, with influence from the Palenight and OneDark themes. Uses both Textmate and Semantic token scopes.
+This theme aims to provide fine-grained semantic distinctions while being easy-on-the-eyes with a warm-leaning color palette WHILE ALSO remaining colorful and enjoyable to look at. Does it succeed? ehhhhhhh... it can vary. But it does generally help with breaking down big dense repos or learning a new language by organizing the tokens into some pretty fine-grained categories. Originally based off of the material synthwave theme, with influence from the Palenight and OneDark themes. Uses both Textmate and Semantic token scopes.
 
-The Name was inspired by the element 83 - Bismuth. A silvery-grey post-transition metal that melts at relatively low temperatures and forms beautiful rhombic geometric crystals with in a rainbow of colors when oxidized at various temperatures. It holds the title of being the most diamagnetic element, and is somewhat surprisingly not toxic for human ingestion.
+Bismuth is the product of many small tweaks that I have made to suit my personal tastes over over a couple years, which I eventually put together into a theme for consistency, and which I finally decided to release as an open-source project so that others might enjoy it as well. I find that it is not stressful on the eyes, draws your focus to the most critical and bug-prone aspects of the source code, and is good for parsing large, unfamiliar codebases.
+
+*The Name was inspired by the element 83 - Bismuth. A silvery-grey post-transition metal that melts at relatively low temperatures and forms beautiful rhombic geometric crystals with in a rainbow of colors when oxidized at various temperatures. It holds the title of being the most diamagnetic element, and is somewhat surprisingly not toxic for human ingestion.*
 
 ## Current Status: Soft-Released
 
