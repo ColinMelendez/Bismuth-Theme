@@ -15,3 +15,19 @@ Next, launch VScode, open the command pallette, and select `Extensions: Install 
 Then, select the downloaded file to install the theme, and you will then be able to choose the Bismuth theme from your list of installed themes!
 
 **Enjoy!**
+
+## Tinkering
+
+To work on the theme and/or build your own version from the source, you must install the Visual Studio Extension Manager tool:
+
+```sh
+npm install -d vsce
+```
+
+To build an installable extension from the current `bismuth-color-theme.json` run:
+
+```sh
+vsce package
+```
+
+and you will generate a new `.vsix` file.
