@@ -16,7 +16,7 @@
 		"diffEditor.removedTextBackground": "#fe445035",
 		"dropdown.background": "#232530",		// -- editor 12 other backgrounds - alt charcoal grey
 		"dropdown.listBackground": "#2a2139",  // -- editor 8 -- workbench contrast boxes - plum
-		"editor.background": "#262335", 		// -- editor 3 -- editor background - dark charcoal grey
+		"editor.background": "#151726", 		// -- editor 6.1 -- editor background - dark grey
 		"editor.findMatchBackground": "#00537627",
 		"editor.findMatchBorder": "#39fffcd2",
 		"editor.findMatchHighlightBackground": "#63590942",
@@ -33,25 +33,42 @@
 		"editor.wordHighlightBorder": "#f5a07b82",
 		"editor.wordHighlightStrongBackground": "#18009115",
 		"editor.wordHighlightStrongBorder": "#47ccf583",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff2027",
+		"editorBracketHighlight.foreground1": "#2c98b0b4",
+		"editorBracketHighlight.foreground2": "#b456eba9",
+		"editorBracketHighlight.foreground3": "#376aecb2",
+		"editorBracketHighlight.foreground4": "#a146a1d5",
+		"editorBracketHighlight.foreground5": "#928219",
 		"editorBracketMatch.background": "#34294f66",
 		"editorBracketMatch.border": "#495495",
-		"editorBracketPairGuide.background1": "#ffda7386",	// -- edit or bracket pair line color 1
-		"editorBracketPairGuide.background2": "#cf53ee77",	// -- edit or bracket pair line color 2
-		"editorBracketPairGuide.background3": "#4478fa83",	// -- edit or bracket pair line color 3
-		"editorCodeLens.foreground": "#ffffff7c", 	// -- editor 5 -- general - translucent colorless
-		"editorCursor.background": "#241b2f",		// -- editor 6 -- workbench background - dark plum
+		"editorBracketPairGuide.background1": "#2c98b044",
+		"editorBracketPairGuide.background2": "#c64ee400",
+		"editorBracketPairGuide.background3": "#376aec51",
+		"editorBracketPairGuide.background4": "#ab69a072",
+		"editorBracketPairGuide.background5": "#8f8b2252",
+		"editorCodeLens.foreground": "#8080808b", 	// -- editor 5 -- general - translucent colorless (dimmed)
+		"editorCursor.background": "#241b2f",		// -- editor 6.0 -- workbench background - dark plum
 		"editorCursor.foreground": "#f97e72", 		// -- editor 1 -- core ui orange - core orange
-		"editorError.foreground": "#fe4450",		// -- editor 7 -- errors & deletes - trans red
+		"editorError.foreground": "#c742589d",		// -- editor 7 -- errors & deletes - trans red (dimmed)
 		"editorGroup.border": "#495495",
 		"editorGroup.dropBackground": "#4954954a",
-		"editorGroupHeader.tabsBackground": "#241b2f",		// -- editor 6 -- workbench background - dark plum
+		"editorGroupHeader.tabsBackground": "#151726",		// -- editor 6.1 -- workbench background - dark grey
 		"editorGutter.addedBackground": "#206d4bd6",
 		"editorGutter.deletedBackground": "#fa2e46a4",		// -- editor 7.1 red
 		"editorGutter.modifiedBackground": "#b893ce8f",
+		"editorInfo.foreground": "#44adfe7b",
 		"editorIndentGuide.activeBackground1": "#a148ab80",
 		"editorIndentGuide.background1": "#444251",
-		"editorLineNumber.activeForeground": "#FFFFFF", 	// -- editor 2 -- important text - pure white
-		"editorLineNumber.foreground": "#ffffff73", 		// -- editor 5 -- general - translucent colorless
+		"editorInlayHint.foreground": "#82aaff97",			// inlay hints are dimmed versions of their related types
+		"editorInlayHint.background": "#5e5d5d65",			//
+		"editorInlayHint.typeForeground": "#f0e8bfd1",		//
+		"editorInlayHint.typeBackground": "#5e5d5d65",		//
+		"editorInlayHint.parameterForeground": "#9cfeb6c8",//
+		"editorInlayHint.parameterBackground": "#5e5d5d6d",//
+		"editorLightBulb.foreground": "#89deff89",
+		"editorLineNumber.foreground": "#7d7984aa",
+		"editorLineNumber.dimmedForeground": "#7d79846b",
+		"editorLineNumber.activeForeground": "#f5857b",
 		"editorOverviewRuler.addedForeground": "#09f7a099",
 		"editorOverviewRuler.border": "#34294fb3",
 		"editorOverviewRuler.deletedForeground": "#fe445099", 	// -- editor 7 -- errors & deletes - trans red
@@ -60,16 +77,23 @@
 		"editorOverviewRuler.modifiedForeground": "#b893ce99",
 		"editorOverviewRuler.warningForeground": "#ff7300b3",
 		"editorRuler.foreground": "#a148ab80",
-		"editorSuggestWidget.highlightForeground": "#f97e72", 	// -- editor 1 -- core ui orange - core orange
+		"editorSuggestWidget.highlightForeground": "#89DDFF", 	// -- primary 5 -- operators & punctuation  - turquoise blue
+		"editorSuggestWidget.focusHighlightForeground": "#6ef7b9",
 		"editorSuggestWidget.selectedBackground": "#ffffff36", // -- editor 5 -- general - translucent colorless
-		"editorWarning.foreground": "#ff7b009c",
+		"editorWarning.foreground": "#d899349a",
 		"editorWidget.background": "#171520dc",
-		"editorWidget.border": "#ffffff22", 			// -- editor 5 -- general - translucent colorless
+		"editorWidget.border": "#f97e72", 				// -- editor 1 -- core ui orange - core orange
 		"editorWidget.resizeBorder": "#ffffff44", 		// -- editor 5 -- general - translucent colorless
 		"errorForeground": "#fe4450",					// -- editor 7 -- errors & deletes - trans red
+		"errorLens.errorForeground": "#c7426aa3",
+		"errorLens.warningForeground": "#d899348c",
+		"errorLens.infoForeground": "#44adfe77",
+		"errorLens.errorBackground": "#ff647613",
+		"errorLens.warningBackground": "#ff932f15",
+		"errorLens.infoBackground": "#00b6e412",
 		"extensionButton.prominentBackground": "#f97e72", 		// -- editor 1 -- core ui orange - core orange
 		"extensionButton.prominentHoverBackground": "#ff7edb",	// -- editor 9 -- highlights - pink
-		"focusBorder": "#1f212b",
+		"focusBorder": "#FFFFFF",
 		"foreground": "#FFFFFF", 						// -- editor 2 -- important text - pure white
 		"gitDecoration.addedResourceForeground": "#72f1b8cc",	// -- editor 11 -- git green - bright mint
 		"gitDecoration.deletedResourceForeground": "#c5333d", 	// -- editor 7.2 red
@@ -80,23 +104,26 @@
 		"inputOption.activeBorder": "#ff7edb99",		// -- editor 9 -- highlights - pink
 		"inputValidation.errorBackground": "#fe445080",// -- editor 7 -- errors & deletes - trans red
 		"inputValidation.errorBorder": "#fe445000",
-		"list.activeSelectionBackground": "#ffffff20", // -- editor 5 -- general - translucent colorless
-		"list.activeSelectionForeground": "#FFFFFF", 	// -- editor 2 -- important text - pure white,
+		"list.activeSelectionBackground": "#ffffff20", 	// -- editor 5 -- general - translucent colorless
+		"list.activeSelectionForeground": "#FFFFFF", 		// -- editor 2 -- important text - pure white,
+		"list.activeSelectionIconForeground": "#ffffff", 	// -- editor 2 -- important text - pure white,
 		"list.dropBackground": "#34294f66",
 		"list.errorForeground": "#fe4450e6",			// -- editor 7 -- errors & deletes - trans red
-		"list.focusBackground": "#ffffff20", 			// -- editor 5 -- general - translucent colorless
-		"list.focusForeground": "#FFFFFF", 			// -- editor 2 -- important text - pure white,
+		"list.focusBackground": "#5c5d5e55",
+		"list.focusForeground": "#c2c2c4",
+		"list.focusOutline": "#ffffffb3",
 		"list.highlightForeground": "#f97e72", 		// -- editor 1 -- core ui orange - core orange,
 		"list.hoverBackground": "#37294d99",
 		"list.hoverForeground": "#FFFFFF", 			// -- editor 2 -- important text - pure white,
 		"list.inactiveFocusBackground": "#2a213999",	// -- editor 8 -- workbench contrast boxes - plum
-		"list.inactiveSelectionBackground": "#ffffff20", 	// -- editor 5 -- general - translucent colorless
+		"list.inactiveFocusOutline": "#ffffff82",
+		"list.inactiveSelectionBackground": "#51515155", 	// -- editor 5 -- general - translucent colorless
 		"list.inactiveSelectionForeground": "#FFFFFF", 	// -- editor 2 -- important text - pure white,
 		"list.warningForeground": "#72f1b8bb",			// -- editor 11 -- git green - bright mint
 		"menu.background": "#463465",
 		"minimap.errorHighlight": "#ff000091",			// -- editor 7.3 red
 		"minimap.findMatchHighlight": "#a504c993",
-		"minimap.selectionHighlight": "#df77caa1",
+		"minimap.selectionHighlight": "#f5857bbc",
 		"minimap.selectionOccurrenceHighlight": "#b7f9fe8a",
 		"minimap.warningHighlight": "#ff7b0074",
 		"minimapGutter.addedBackground": "#09f7a099",	// -- editor 11 -- git green - bright mint
@@ -104,6 +131,7 @@
 		"minimapGutter.modifiedBackground": "#b893ce",
 		"minimapSlider.activeBackground": "#6163e225",
 		"panelTitle.activeBorder": "#f97e72", 			// -- editor 1 -- core ui orange - core orange,
+		"panel.background": "#151726",					// -- editor 6.1 -- workbench background - dark grey
 		"peekView.border": "#495495",
 		"peekViewEditor.background": "#232530",		// -- editor 12 other backgrounds - alt charcoal grey
 		"peekViewEditor.matchHighlightBackground": "#d18616bb",
@@ -111,28 +139,51 @@
 		"peekViewResult.matchHighlightBackground": "#d1861655",
 		"peekViewResult.selectionBackground": "#2a213980",	// -- editor 8 -- workbench contrast boxes - plum
 		"peekViewTitle.background": "#232530",			// -- editor 12 other backgrounds - alt charcoal grey
-		"pickerGroup.foreground": "#f97e72ea", 		// -- editor 1 -- core ui orange - core orange,
+		"pickerGroup.foreground": "#f97e72ea",   		// -- editor 1 -- core ui orange - core orange,
+		"pickerGroup.border": "#f97e72",
 		"progressBar.background": "#f97e72", 			// -- editor 1 -- core ui orange - core orange,
 		"scrollbar.shadow": "#2a2139",					// -- editor 8 -- workbench contrast boxes - plum
 		"scrollbarSlider.activeBackground": "#9d8bca20",// light translucent purple
 		"scrollbarSlider.background": "#9d8bca30",	// light translucent purple
 		"scrollbarSlider.hoverBackground": "#9d8bca50",// light translucent purple
 		"selection.background": "#ffffff20", 			// -- editor 5 -- general - translucent colorless
-		"sideBar.background": "#241b2f",				// -- editor 6 -- workbench background - dark plum
+		"sideBar.background": "#151726",				// -- editor 6.1 -- workbench background - dark grey
 		"sideBar.dropBackground": "#34294f4c",
 		"sideBar.foreground": "#ffffff99", 			// -- editor 4 -- general - translucent white
 		"sideBarSectionHeader.background": "#262332",
 		"sideBarSectionHeader.foreground": "#ffffffca", // -- editor 4 -- general - translucent white
-		"statusBar.background": "#241b2f",				// -- editor 6 -- workbench background - dark plum
+		"statusBar.background": "#151726",				// -- editor 6.1 -- workbench background - dark grey
 		"statusBar.debuggingBackground": "#f97e72", 	// -- editor 1 -- core ui orange - core orange,
 		"statusBar.debuggingForeground": "#08080f",
 		"statusBar.foreground": "#ffffff80", 			// -- editor 5 -- general - translucent colorless
-		"statusBar.noFolderBackground": "#241b2f",		// -- editor 6 -- workbench background - dark plum
+		"statusBar.noFolderBackground": "#241b2f",		// -- editor 6.0 -- workbench background - dark plum
 		"statusBarItem.prominentBackground": "#2a2139",	// -- editor 8 -- workbench contrast boxes - plum
 		"statusBarItem.prominentHoverBackground": "#34294f",
+		"symbolIcon.functionForeground": "#82AAFF",
+		"symbolIcon.propertyForeground": "#df8670",
+		"symbolIcon.variableForeground": "#df8670",
+		"symbolIcon.arrayForeground": "#C792EA",
+		"symbolIcon.booleanForeground": "#fe5789",
+		"symbolIcon.numberForeground": "#fe5789",
+		"symbolIcon.stringForeground": "#92cb9a",
+		"symbolIcon.classForeground": "#e3ae75",
+		"symbolIcon.structForeground": "#e3ae75",
+		"symbolIcon.namespaceForeground": "#A6ACCD",
+		"symbolIcon.interfaceForeground": "#f0e8bf",
+		"symbolIcon.methodForeground": "#82AAFF",
+		"symbolIcon.objectForeground": "#e3ae75",
+		"symbolIcon.enumeratorForeground": "#e67093",
+		"symbolIcon.enumeratorMemberForeground": "#e67093",
+		"symbolIcon.fieldForeground": "#df8670",
+		"symbolIcon.moduleForeground": "#81898d",
+		"symbolIcon.constantForeground": "#e67093",
+		"symbolIcon.keywordForeground": "#89DDFF",
+		"symbolIcon.snippetForeground": "#C792EA",
+		"symbolIcon.textForeground": "#C792EA",
+		"symbolIcon.unitForeground": "#e67093",
 		"tab.activeBorder": "#880088",
-		"tab.border": "#241b2f00",				// -- editor 6 -- workbench background - dark plum
-		"tab.inactiveBackground": "#262335", 	// -- editor 3 -- editor background - dark charcoal grey
+		"tab.border": "#241b2f00",				// -- editor 6.0 -- workbench background - dark plum
+		"tab.inactiveBackground": "#151726", 	// -- editor 6.1 -- editor background - dark grey
 		"terminal.ansiBlue": "#03edf9",		// -- editor 10 -- terminal blue - bright blue
 		"terminal.ansiBrightBlue": "#03edf9", 	// -- editor 10 -- terminal blue - bright blue
 		"terminal.ansiBrightCyan": "#03edf9",	// -- editor 10 -- terminal blue - bright blue
@@ -151,8 +202,8 @@
 		"terminalCursor.foreground": "#03edf9",		// -- editor 10 -- terminal blue - bright blue
 		"textLink.activeForeground": "#ff7edb",		// -- editor 9 -- highlights - pink
 		"textLink.foreground": "#f97e72", 				// -- editor 1 -- core ui orange - core orange
-		"titleBar.activeBackground": "#262332",
-		"titleBar.inactiveBackground": "#241b2f",		// -- editor 6 -- workbench background - dark plum
+		"titleBar.activeBackground": "#241b2f",		// -- editor 6.0 -- warm workbench background - dark plum
+		"titleBar.inactiveBackground": "#262332",
 		"walkThrough.embeddedEditorBackground": "#232530",	// -- editor 12 other backgrounds - alt charcoal grey
 		"widget.shadow": "#2a2139",					// -- editor 8 -- workbench contrast boxes - plum
 	},
