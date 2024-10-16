@@ -294,6 +294,8 @@
 				"keyword.struct",
 				"keyword.channel",
 				"keyword.const",
+				"keyword.other.fn.rust", // might cause a conflict somewhere, check back
+				"keyword.other.crate.rust",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -595,6 +597,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 				"string.quoted.single.basic.line.toml",
 				// "text.html.derivative",
+				"entity.name.import.go",
 			],
 			"settings": {
 				"foreground": "#b4da7b", // -- primary 13 -- string literals - soft lime green,
