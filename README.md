@@ -8,9 +8,9 @@ Bismuth is the product of many small tweaks that I have made to suit my personal
 
 <p align="center">
   <img width="350rem" src="https://github.com/user-attachments/assets/d9da9866-0800-4829-9cd8-2a9d12479849">
-  <img width="500rem" src="https://github.com/user-attachments/assets/1b0e8c5f-9730-4b03-bec9-0c6e04982268">
 </p>
 
+![image](https://github.com/user-attachments/assets/ae488d73-95a3-4868-a6b0-8569a13db6f5)
 
 
 
@@ -44,4 +44,6 @@ and you will generate a new `.vsix` file.
 
 ## More Examples
 
-![image](https://github.com/user-attachments/assets/ae488d73-95a3-4868-a6b0-8569a13db6f5)
+<p align="center">
+  <img width="500rem" src="https://github.com/user-attachments/assets/1b0e8c5f-9730-4b03-bec9-0c6e04982268">
+</p>
