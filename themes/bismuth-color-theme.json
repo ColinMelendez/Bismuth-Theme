@@ -243,7 +243,8 @@
 			"name": "function parameter variables in signature and body",
 			"scope": [
 				"variable.parameter.function.language.special",
-				"variable.parameter"
+				"variable.parameter",
+				"meta.scope.prerequisites.makefile",
 			],
 			"settings": {
 				"foreground": "#73e8b3" // -- primary 11 -- function parameters - bright mint
@@ -580,6 +581,7 @@
 				"constant.escape",
 				"keyword.other.unit",
 				"keyword.other",
+				"constant.language.boolean",
 			],
 			"settings": {
 				"foreground": "#f05776" // -- primary 3 -- numeric & keyword literals - bright red
@@ -598,6 +600,7 @@
 				"string.quoted.single.basic.line.toml",
 				// "text.html.derivative",
 				"entity.name.import.go",
+				"meta.scope.recipe.makefile",
 			],
 			"settings": {
 				"foreground": "#b4da7b", // -- primary 13 -- string literals - soft lime green,

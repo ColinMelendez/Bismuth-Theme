@@ -2,6 +2,7 @@
 
 ## [Released-Beta]
 The theme is still not what I would call "finished" even though it has more total features than most themes. I anticipate somewhat significant evolutions to continue, though from here on, all major distinct versions will be kept live.
+- 0.5.5: added support for makefile recipes and prerequisites, expanded Go semantic token coverage
 - 0.5.1: Fixed a bug with Go imports not being colored correctly with semantic tokens.
 - 0.5.0: Public Release! Added theme elements for bracket pairs, outline symbols, menus, errors, and matching colors for errorLens, among other consistency tweaks.
 - Initial release --------------------
