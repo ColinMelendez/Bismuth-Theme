@@ -12,6 +12,7 @@ Bismuth is the product of many small tweaks that I have made to suit my personal
 
 ![image](https://github.com/user-attachments/assets/ae488d73-95a3-4868-a6b0-8569a13db6f5)
 
+*also featuring: my font - [Flatworm Nerd Font](https://github.com/ColinMelendez/Flatworm-Nerd-Font) and my spin on [Moxer Icons](https://github.com/ColinMelendez/moxer-icons-code)*
 
 
 ## Current Status: Soft-Released
