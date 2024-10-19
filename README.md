@@ -4,7 +4,7 @@ This theme aims to provide fine-grained semantic distinctions while being easy-o
 
 Bismuth is the product of many small tweaks that I have made to suit my personal tastes over over a couple years, which I eventually put together into a theme for consistency, and which I finally decided to release as an open-source project so that others might enjoy it as well. I find that it is not stressful on the eyes, draws your focus to the most critical and bug-prone aspects of the source code, and is good for parsing large, unfamiliar codebases.
 
-*The Name was inspired by the element 83 - Bismuth. A silvery-grey post-transition metal that melts at relatively low temperatures and forms beautiful rhombic geometric crystals with in a rainbow of colors when oxidized at various temperatures. It holds the title of being the most diamagnetic element, and is somewhat surprisingly not toxic for human ingestion.*
+*The Name was inspired by the element 83 - Bismuth. A silvery-grey post-transition metal that melts at relatively low temperatures and forms beautiful rhombic geometric crystals with a rainbow of colors when oxidized at various temperatures. It holds the title of being the most diamagnetic element, and is somewhat surprisingly not toxic for human ingestion.*
 
 <p align="center">
   <img width="350rem" src="https://github.com/user-attachments/assets/d9da9866-0800-4829-9cd8-2a9d12479849">
@@ -16,11 +16,11 @@ Bismuth is the product of many small tweaks that I have made to suit my personal
 
 ## Current Status: Soft-Released
 
-If you wist to install this theme for VScode:
+If you wish to install this theme for VScode:
 
 First, download the `.vsix` from this repo.
 
-Next, launch VScode, open the command pallette, and select `Extensions: Install from VSIX...`
+Next, launch VScode, open the command palette, and select `Extensions: Install from VSIX...`
 
 Then, select the downloaded file to install the theme, and you will then be able to choose the Bismuth theme from your list of installed themes!
 
