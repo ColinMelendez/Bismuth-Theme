@@ -297,6 +297,18 @@
 				"keyword.const",
 				"keyword.other.fn.rust", // might cause a conflict somewhere, check back
 				"keyword.other.crate.rust",
+				"keyword.operator.css",
+				"keyword.other.unit.percentage.css",
+				"keyword.other.unit.pt",
+				"keyword.other.unit.px",
+				"keyword.other.unit.rem",
+				"keyword.other.unit.em",
+				"keyword.other.unit.vh",
+				"keyword.other.unit.vw",
+				"keyword.other.unit.lh",
+				"keyword.other.unit.rlh",
+				"keyword.operator.rest",
+				"keyword.operator.spread",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -350,8 +362,6 @@
 				"meta.method-call.with-arguments.js",
 				"keyword.operator.range",
 				"keyword.operator.ternary",
-				"keyword.operator.spread",
-
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
@@ -425,6 +435,7 @@
 			"scope": [
 				// immutable properties of objects (sorta their own domain of literals)
 				"support.constant.property",
+				"variable.other.object.property.ts", // <-- questionable if there may be more edge cases related to this one. <-
 				// moved the html / jsx tag color to separate it from local constants visually
 				"entity.name.tag", // a1
 				"meta.tag.sgml", // a2
@@ -433,6 +444,7 @@
 				"support.class.component", // a4
 				// special global constants that use a convention of being all-caps (like rust)
 				"constant.other.caps", // a5
+				"source.makefile",
 			],
 			"settings": {
 				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
