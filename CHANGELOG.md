@@ -2,6 +2,7 @@
 
 ## [Released-Beta]
 The theme is still not what I would call "finished" even though it has more total features than most themes. I anticipate somewhat significant evolutions to continue, though from here on, all major distinct versions will be kept live.
+- 0.6.2: Expanded coverage of C and C++ memory operators and added support for Java package keywords
 - 0.6.1: Fixed the assignments of the "rest" and "spread" operators so that they both match other common operators
 - 0.6.0: Added support for CSS units and keywords, and fixed some inconsistent typescript edge cases
 - 0.5.5: Added support for makefile recipes and prerequisites, expanded Go semantic token coverage

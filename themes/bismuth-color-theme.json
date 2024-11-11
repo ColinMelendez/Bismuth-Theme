@@ -309,6 +309,7 @@
 				"keyword.other.unit.rlh",
 				"keyword.operator.rest",
 				"keyword.operator.spread",
+				"keyword.operator.bitwise.shift",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -362,6 +363,7 @@
 				"meta.method-call.with-arguments.js",
 				"keyword.operator.range",
 				"keyword.operator.ternary",
+				"keyword.other.package.java",
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
@@ -396,6 +398,10 @@
 				"keyword.operator.nullcoalesce",
 				"keyword.operator.address",
 				"keyword.operator.channel",
+				"keyword.control.new",
+				"storage.modifier.pointer",
+				"keyword.operator.bitwise.cpp", // slightly inappropriate, but I'd rather overemphasize "&" references to make them stand out than underemphasize them just so that bitwise operators can be technically consistently colored.
+
 			],
 			"settings": {
 				"foreground": "#d84bff", // special color - radioactive purple
@@ -485,6 +491,7 @@
 				// Text literals inside of HTML and JSX blocks
 				"meta.jsx.children",
 				"text.html.derivative",
+				"text.xml",
 			],
 			"settings": {
 				"foreground": "#f0feff", // special - white
