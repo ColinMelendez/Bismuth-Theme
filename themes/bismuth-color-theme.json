@@ -679,6 +679,7 @@
 				"support.type.sys-types",
 				"support.type.python",
 				"support.class",
+				"storage.type.built-in",
 			],
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
