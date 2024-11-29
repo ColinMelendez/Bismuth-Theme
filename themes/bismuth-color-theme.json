@@ -451,6 +451,8 @@
 				// special global constants that use a convention of being all-caps (like rust)
 				"constant.other.caps", // a5
 				"source.makefile",
+				"support.variable.property.ts",
+				"support.variable.property.js",
 			],
 			"settings": {
 				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
