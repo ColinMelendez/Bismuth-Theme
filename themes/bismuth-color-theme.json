@@ -58,7 +58,7 @@
 		"editorGutter.modifiedBackground": "#b893ce8f",
 		"editorInfo.foreground": "#44adfe7b",
 		"editorIndentGuide.activeBackground1": "#a148ab80",
-		"editorIndentGuide.background1": "#444251",
+		"editorIndentGuide.background1": "#4442516d",
 		"editorInlayHint.foreground": "#82aaff97",			// inlay hints are dimmed versions of their related types
 		"editorInlayHint.background": "#5e5d5d65",			//
 		"editorInlayHint.typeForeground": "#f0e8bfd1",		//
@@ -223,7 +223,8 @@
 		{
 			"name": "Colors", // ??
 			"scope": [
-				"constant.other.color"
+				"constant.other.color",
+				"text.svelte",
 			],
 			"settings": {
 				"foreground": "#FFFFFF", // -- editor 2 -- important text - pure white
@@ -310,6 +311,10 @@
 				"keyword.operator.rest",
 				"keyword.operator.spread",
 				"keyword.operator.bitwise.shift",
+				"keyword.operator.gradient",
+				"keyword.operator.redirect",
+				"punctuation.separator.statement.and.shell",
+				"punctuation.separator.statement.background.shell",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -622,6 +627,8 @@
 				// "text.html.derivative",
 				"entity.name.import.go",
 				"meta.scope.recipe.makefile",
+				"meta.scope.logical-expression.shell",
+				"meta.scope.if-block.shell",
 			],
 			"settings": {
 				"foreground": "#b4da7b", // -- primary 13 -- string literals - soft lime green,
@@ -697,6 +704,7 @@
 				"source.stylus support.type.property-name",
 				"source.postcss support.type.property-name",
 				"meta.property-name.media-query",
+				"constant.other.option",
 			],
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
