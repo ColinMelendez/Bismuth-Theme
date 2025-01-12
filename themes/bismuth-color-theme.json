@@ -643,6 +643,7 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
+				"log.exceptiontype",
 				// "support.type.sys-types"
 				// "entity.name.type.struct",
 				// "entity.name.namespace",
@@ -689,6 +690,7 @@
 				"support.type.python",
 				"support.class",
 				"storage.type.built-in",
+				"log.exception",
 			],
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
@@ -1164,28 +1166,40 @@
 		},
 		{
 			"name": "info",
-			"scope": "token.info-token",
+			"scope": [
+				"token.info-token",
+				"log.info"
+			],
 			"settings": {
 				"foreground": "#6796E6"
 			}
 		},
 		{
 			"name": "warn",
-			"scope": "token.warn-token",
+			"scope": [
+				"token.warn-token",
+				"log.warning"
+			],
 			"settings": {
 				"foreground": "#CD9731"
 			}
 		},
 		{
 			"name": "error",
-			"scope": "token.error-token",
+			"scope": [
+				"token.error-token",
+				"log.error"
+			],
 			"settings": {
 				"foreground": "#F44747"
 			}
 		},
 		{
 			"name": "debug",
-			"scope": "token.debug-token",
+			"scope": [
+				"token.debug-token",
+				"log.debug"
+			],
 			"settings": {
 				"foreground": "#B267E6"
 			}
