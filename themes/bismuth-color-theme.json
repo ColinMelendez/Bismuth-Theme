@@ -315,6 +315,14 @@
 				"keyword.operator.redirect",
 				"punctuation.separator.statement.and.shell",
 				"punctuation.separator.statement.background.shell",
+				"keyword.operator.private",
+				"keyword.operator.protected",
+				"keyword.operator.public",
+				"keyword.operator.static",
+				"keyword.operator.abstract",
+				"keyword.operator.final",
+				"keyword.operator.bitwise",
+				"keyword.operator.of",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender

@@ -4,6 +4,7 @@
 
 The theme is still not what I would call "finished" even though it has more total features than most themes. I anticipate somewhat significant evolutions to continue, though from here on, all major distinct versions will be kept live.
 
+- 0.6.7: Added some missing class scope operators that are general to many languages, and tweaked description
 - 0.6.6: Added support for .log file syntax
 - 0.6.5: Expanded coverage and increased specificity for operators and some edge scopes of bash, and added coverage for CSS gradient operators
 - 0.6.3: Expanded coverage of C and C++ memory operators and added support for Java package keywords
