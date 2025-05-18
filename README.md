@@ -7,7 +7,7 @@ Bismuth is the product of many small tweaks that I have made to suit my personal
 *The Name was inspired by the element 83 - Bismuth. A silvery-grey post-transition metal that melts at relatively low temperatures and forms beautiful rhombic geometric crystals with a rainbow of colors when oxidized at various temperatures. It holds the title of being the most diamagnetic element, and is somewhat surprisingly not toxic for human ingestion.*
 
 <p align="center">
-  <img width="350rem" src="https://github.com/user-attachments/assets/d9da9866-0800-4829-9cd8-2a9d12479849">
+  <img width="350rem" src="https://github.com/user-attachments/assets/b7acae6a-054e-4e02-9d66-e40fe2d2fc77">
 </p>
 
 ![image](https://github.com/user-attachments/assets/ae488d73-95a3-4868-a6b0-8569a13db6f5)
