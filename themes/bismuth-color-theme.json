@@ -5,18 +5,18 @@
 	"colors": {
 		"activityBar.background": "#171520",
 		"activityBar.foreground": "#ffffffcc", // -- editor 4 -- general - translucent white
-		"activityBarBadge.background": "#f97e72", 	// -- editor 1 -- core ui orange - core orange,
-		"activityBarBadge.foreground": "#2a2139",	// -- editor 8 -- workbench contrast boxes - plum
-		"badge.background": "#2a2139",			// -- editor 8 -- workbench contrast boxes - plum
-		"badge.foreground": "#FFFFFF", 		// -- editor 2 -- important text - pure white,
-		"breadcrumbPicker.background": "#232530",	// -- editor 12 other backgrounds - alt charcoal grey
+		"activityBarBadge.background": "#f97e72", // -- editor 1 -- core ui orange - core orange,
+		"activityBarBadge.foreground": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
+		"badge.background": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
+		"badge.foreground": "#FFFFFF", // -- editor 2 -- important text - pure white,
+		"breadcrumbPicker.background": "#232530", // -- editor 12 other backgrounds - alt charcoal grey
 		"button.background": "#614d85",
 		"debugToolBar.background": "#463465",
 		"diffEditor.insertedTextBackground": "#0beb9935",
 		"diffEditor.removedTextBackground": "#fe445035",
-		"dropdown.background": "#232530",		// -- editor 12 other backgrounds - alt charcoal grey
-		"dropdown.listBackground": "#2a2139",  // -- editor 8 -- workbench contrast boxes - plum
-		"editor.background": "#151726", 		// -- editor 6.1 -- editor background - dark grey
+		"dropdown.background": "#232530", // -- editor 12 other backgrounds - alt charcoal grey
+		"dropdown.listBackground": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
+		"editor.background": "#181526", // -- editor 6.1 -- editor background - dark grey
 		"editor.findMatchBackground": "#00537627",
 		"editor.findMatchBorder": "#39fffcd2",
 		"editor.findMatchHighlightBackground": "#63590942",
@@ -46,118 +46,118 @@
 		"editorBracketPairGuide.background3": "#376aec51",
 		"editorBracketPairGuide.background4": "#ab69a072",
 		"editorBracketPairGuide.background5": "#8f8b2252",
-		"editorCodeLens.foreground": "#8080808b", 	// -- editor 5 -- general - translucent colorless (dimmed)
-		"editorCursor.background": "#241b2f",		// -- editor 6.0 -- workbench background - dark plum
-		"editorCursor.foreground": "#f97e72", 		// -- editor 1 -- core ui orange - core orange
-		"editorError.foreground": "#c742589d",		// -- editor 7 -- errors & deletes - trans red (dimmed)
+		"editorCodeLens.foreground": "#8080808b", // -- editor 5 -- general - translucent colorless (dimmed)
+		"editorCursor.background": "#241b2f", // -- editor 6.0 -- workbench background - dark plum
+		"editorCursor.foreground": "#f97e72", // -- editor 1 -- core ui orange - core orange
+		"editorError.foreground": "#c742589d", // -- editor 7 -- errors & deletes - trans red (dimmed)
 		"editorGroup.border": "#495495",
 		"editorGroup.dropBackground": "#4954954a",
-		"editorGroupHeader.tabsBackground": "#151726",		// -- editor 6.1 -- workbench background - dark grey
+		"editorGroupHeader.tabsBackground": "#181526", // -- editor 6.1 -- workbench background - dark dark plum
 		"editorGutter.addedBackground": "#206d4bd6",
-		"editorGutter.deletedBackground": "#fa2e46a4",		// -- editor 7.1 red
+		"editorGutter.deletedBackground": "#fa2e46a4", // -- editor 7.1 red
 		"editorGutter.modifiedBackground": "#b893ce8f",
 		"editorInfo.foreground": "#44adfe7b",
 		"editorIndentGuide.activeBackground1": "#a148ab80",
 		"editorIndentGuide.background1": "#4442516d",
-		"editorInlayHint.foreground": "#82aaff97",			// inlay hints are dimmed versions of their related types
-		"editorInlayHint.background": "#5e5d5d65",			//
-		"editorInlayHint.typeForeground": "#f0e8bfd1",		//
-		"editorInlayHint.typeBackground": "#5e5d5d65",		//
-		"editorInlayHint.parameterForeground": "#9cfeb6c8",//
-		"editorInlayHint.parameterBackground": "#5e5d5d6d",//
+		"editorInlayHint.foreground": "#82aaff97", // inlay hints are dimmed versions of their related types
+		"editorInlayHint.background": "#5e5d5d65", //
+		"editorInlayHint.typeForeground": "#f0e8bfd1", //
+		"editorInlayHint.typeBackground": "#5e5d5d65", //
+		"editorInlayHint.parameterForeground": "#9cfeb6c8", //
+		"editorInlayHint.parameterBackground": "#5e5d5d6d", //
 		"editorLightBulb.foreground": "#89deff89",
 		"editorLineNumber.foreground": "#7d7984aa",
 		"editorLineNumber.dimmedForeground": "#7d79846b",
 		"editorLineNumber.activeForeground": "#f5857b",
 		"editorOverviewRuler.addedForeground": "#09f7a099",
 		"editorOverviewRuler.border": "#34294fb3",
-		"editorOverviewRuler.deletedForeground": "#fe445099", 	// -- editor 7 -- errors & deletes - trans red
-		"editorOverviewRuler.errorForeground": "#fe4450dd", 	// -- editor 7 -- errors & deletes - trans red
+		"editorOverviewRuler.deletedForeground": "#fe445099", // -- editor 7 -- errors & deletes - trans red
+		"editorOverviewRuler.errorForeground": "#fe4450dd", // -- editor 7 -- errors & deletes - trans red
 		"editorOverviewRuler.findMatchForeground": "#ff00f795",
 		"editorOverviewRuler.modifiedForeground": "#b893ce99",
 		"editorOverviewRuler.warningForeground": "#ff7300b3",
 		"editorRuler.foreground": "#a148ab80",
-		"editorSuggestWidget.highlightForeground": "#89DDFF", 	// -- primary 5 -- operators & punctuation  - turquoise blue
+		"editorSuggestWidget.highlightForeground": "#89DDFF", // -- primary 5 -- operators & punctuation  - turquoise blue
 		"editorSuggestWidget.focusHighlightForeground": "#6ef7b9",
 		"editorSuggestWidget.selectedBackground": "#ffffff36", // -- editor 5 -- general - translucent colorless
 		"editorWarning.foreground": "#d899349a",
 		"editorWidget.background": "#171520dc",
-		"editorWidget.border": "#f97e72", 				// -- editor 1 -- core ui orange - core orange
-		"editorWidget.resizeBorder": "#ffffff44", 		// -- editor 5 -- general - translucent colorless
-		"errorForeground": "#fe4450",					// -- editor 7 -- errors & deletes - trans red
+		"editorWidget.border": "#f97e72", // -- editor 1 -- core ui orange - core orange
+		"editorWidget.resizeBorder": "#ffffff44", // -- editor 5 -- general - translucent colorless
+		"errorForeground": "#fe4450", // -- editor 7 -- errors & deletes - trans red
 		"errorLens.errorForeground": "#c7426aa3",
 		"errorLens.warningForeground": "#d899348c",
 		"errorLens.infoForeground": "#44adfe77",
 		"errorLens.errorBackground": "#ff647613",
 		"errorLens.warningBackground": "#ff932f15",
 		"errorLens.infoBackground": "#00b6e412",
-		"extensionButton.prominentBackground": "#f97e72", 		// -- editor 1 -- core ui orange - core orange
-		"extensionButton.prominentHoverBackground": "#ff7edb",	// -- editor 9 -- highlights - pink
+		"extensionButton.prominentBackground": "#f97e72", // -- editor 1 -- core ui orange - core orange
+		"extensionButton.prominentHoverBackground": "#ff7edb", // -- editor 9 -- highlights - pink
 		"focusBorder": "#FFFFFF",
-		"foreground": "#FFFFFF", 						// -- editor 2 -- important text - pure white
-		"gitDecoration.addedResourceForeground": "#72f1b8cc",	// -- editor 11 -- git green - bright mint
-		"gitDecoration.deletedResourceForeground": "#c5333d", 	// -- editor 7.2 red
+		"foreground": "#FFFFFF", // -- editor 2 -- important text - pure white
+		"gitDecoration.addedResourceForeground": "#72f1b8cc", // -- editor 11 -- git green - bright mint
+		"gitDecoration.deletedResourceForeground": "#c5333d", // -- editor 7.2 red
 		"gitDecoration.ignoredResourceForeground": "#ffffff59", // -- editor 5 -- general - translucent colorless
 		"gitDecoration.modifiedResourceForeground": "#b893ceee",
 		"gitDecoration.untrackedResourceForeground": "#baa036",
-		"input.background": "#2a2139",					// -- editor 8 -- workbench contrast boxes - plum
-		"inputOption.activeBorder": "#ff7edb99",		// -- editor 9 -- highlights - pink
-		"inputValidation.errorBackground": "#fe445080",// -- editor 7 -- errors & deletes - trans red
+		"input.background": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
+		"inputOption.activeBorder": "#ff7edb99", // -- editor 9 -- highlights - pink
+		"inputValidation.errorBackground": "#fe445080", // -- editor 7 -- errors & deletes - trans red
 		"inputValidation.errorBorder": "#fe445000",
-		"list.activeSelectionBackground": "#ffffff20", 	// -- editor 5 -- general - translucent colorless
-		"list.activeSelectionForeground": "#FFFFFF", 		// -- editor 2 -- important text - pure white,
-		"list.activeSelectionIconForeground": "#ffffff", 	// -- editor 2 -- important text - pure white,
+		"list.activeSelectionBackground": "#ffffff20", // -- editor 5 -- general - translucent colorless
+		"list.activeSelectionForeground": "#FFFFFF", // -- editor 2 -- important text - pure white,
+		"list.activeSelectionIconForeground": "#ffffff", // -- editor 2 -- important text - pure white,
 		"list.dropBackground": "#34294f66",
-		"list.errorForeground": "#fe4450e6",			// -- editor 7 -- errors & deletes - trans red
+		"list.errorForeground": "#fe4450e6", // -- editor 7 -- errors & deletes - trans red
 		"list.focusBackground": "#5c5d5e55",
 		"list.focusForeground": "#c2c2c4",
 		"list.focusOutline": "#ffffffb3",
-		"list.highlightForeground": "#f97e72", 		// -- editor 1 -- core ui orange - core orange,
+		"list.highlightForeground": "#f97e72", // -- editor 1 -- core ui orange - core orange,
 		"list.hoverBackground": "#37294d99",
-		"list.hoverForeground": "#FFFFFF", 			// -- editor 2 -- important text - pure white,
-		"list.inactiveFocusBackground": "#2a213999",	// -- editor 8 -- workbench contrast boxes - plum
+		"list.hoverForeground": "#FFFFFF", // -- editor 2 -- important text - pure white,
+		"list.inactiveFocusBackground": "#2a213999", // -- editor 8 -- workbench contrast boxes - plum
 		"list.inactiveFocusOutline": "#ffffff82",
-		"list.inactiveSelectionBackground": "#51515155", 	// -- editor 5 -- general - translucent colorless
-		"list.inactiveSelectionForeground": "#FFFFFF", 	// -- editor 2 -- important text - pure white,
-		"list.warningForeground": "#72f1b8bb",			// -- editor 11 -- git green - bright mint
+		"list.inactiveSelectionBackground": "#51515155", // -- editor 5 -- general - translucent colorless
+		"list.inactiveSelectionForeground": "#FFFFFF", // -- editor 2 -- important text - pure white,
+		"list.warningForeground": "#72f1b8bb", // -- editor 11 -- git green - bright mint
 		"menu.background": "#463465",
-		"minimap.errorHighlight": "#ff000091",			// -- editor 7.3 red
+		"minimap.errorHighlight": "#ff000091", // -- editor 7.3 red
 		"minimap.findMatchHighlight": "#a504c993",
 		"minimap.selectionHighlight": "#f5857bbc",
 		"minimap.selectionOccurrenceHighlight": "#b7f9fe8a",
 		"minimap.warningHighlight": "#ff7b0074",
-		"minimapGutter.addedBackground": "#09f7a099",	// -- editor 11 -- git green - bright mint
-		"minimapGutter.deletedBackground": "#fe4450",  // -- editor 7 -- errors & deletes - trans red
+		"minimapGutter.addedBackground": "#09f7a099", // -- editor 11 -- git green - bright mint
+		"minimapGutter.deletedBackground": "#fe4450", // -- editor 7 -- errors & deletes - trans red
 		"minimapGutter.modifiedBackground": "#b893ce",
 		"minimapSlider.activeBackground": "#6163e225",
-		"panelTitle.activeBorder": "#f97e72", 			// -- editor 1 -- core ui orange - core orange,
-		"panel.background": "#151726",					// -- editor 6.1 -- workbench background - dark grey
+		"panelTitle.activeBorder": "#f97e72", // -- editor 1 -- core ui orange - core orange,
+		"panel.background": "#181526", // -- editor 6.1 -- workbench background - dark dark plum
 		"peekView.border": "#495495",
-		"peekViewEditor.background": "#232530",		// -- editor 12 other backgrounds - alt charcoal grey
+		"peekViewEditor.background": "#181526", // -- editor 6.1 -- workbench background - dark dark plum
 		"peekViewEditor.matchHighlightBackground": "#d18616bb",
-		"peekViewResult.background": "#232530",		// -- editor 12 other backgrounds - alt charcoal grey
+		"peekViewResult.background": "#181526", // -- editor 6.1 -- workbench background - dark dark plum
 		"peekViewResult.matchHighlightBackground": "#d1861655",
-		"peekViewResult.selectionBackground": "#2a213980",	// -- editor 8 -- workbench contrast boxes - plum
-		"peekViewTitle.background": "#232530",			// -- editor 12 other backgrounds - alt charcoal grey
-		"pickerGroup.foreground": "#f97e72ea",   		// -- editor 1 -- core ui orange - core orange,
+		"peekViewResult.selectionBackground": "#2a213980", // -- editor 8 -- workbench contrast boxes - plum
+		"peekViewTitle.background": "#241b2f", // -- editor 6.0 -- workbench background - dark plum
+		"pickerGroup.foreground": "#f97e72ea", // -- editor 1 -- core ui orange - core orange,
 		"pickerGroup.border": "#f97e72",
-		"progressBar.background": "#f97e72", 			// -- editor 1 -- core ui orange - core orange,
-		"scrollbar.shadow": "#2a2139",					// -- editor 8 -- workbench contrast boxes - plum
-		"scrollbarSlider.activeBackground": "#9d8bca20",// light translucent purple
-		"scrollbarSlider.background": "#9d8bca30",	// light translucent purple
-		"scrollbarSlider.hoverBackground": "#9d8bca50",// light translucent purple
-		"selection.background": "#ffffff20", 			// -- editor 5 -- general - translucent colorless
-		"sideBar.background": "#151726",				// -- editor 6.1 -- workbench background - dark grey
+		"progressBar.background": "#f97e72", // -- editor 1 -- core ui orange - core orange,
+		"scrollbar.shadow": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
+		"scrollbarSlider.activeBackground": "#9d8bca20", // light translucent purple
+		"scrollbarSlider.background": "#9d8bca30", // light translucent purple
+		"scrollbarSlider.hoverBackground": "#9d8bca50", // light translucent purple
+		"selection.background": "#ffffff20", // -- editor 5 -- general - translucent colorless
+		"sideBar.background": "#181526", // -- editor 6.1 -- workbench background - dark dark plum
 		"sideBar.dropBackground": "#34294f4c",
-		"sideBar.foreground": "#ffffff99", 			// -- editor 4 -- general - translucent white
+		"sideBar.foreground": "#ffffff99", // -- editor 4 -- general - translucent white
 		"sideBarSectionHeader.background": "#262332",
 		"sideBarSectionHeader.foreground": "#ffffffca", // -- editor 4 -- general - translucent white
-		"statusBar.background": "#151726",				// -- editor 6.1 -- workbench background - dark grey
-		"statusBar.debuggingBackground": "#f97e72", 	// -- editor 1 -- core ui orange - core orange,
+		"statusBar.background": "#181526", // -- editor 6.1 -- workbench background - dark dark plum
+		"statusBar.debuggingBackground": "#f97e72", // -- editor 1 -- core ui orange - core orange,
 		"statusBar.debuggingForeground": "#08080f",
-		"statusBar.foreground": "#ffffff80", 			// -- editor 5 -- general - translucent colorless
-		"statusBar.noFolderBackground": "#241b2f",		// -- editor 6.0 -- workbench background - dark plum
-		"statusBarItem.prominentBackground": "#2a2139",	// -- editor 8 -- workbench contrast boxes - plum
+		"statusBar.foreground": "#ffffff80", // -- editor 5 -- general - translucent colorless
+		"statusBar.noFolderBackground": "#241b2f", // -- editor 6.0 -- workbench background - dark plum
+		"statusBarItem.prominentBackground": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
 		"statusBarItem.prominentHoverBackground": "#34294f",
 		"symbolIcon.functionForeground": "#82AAFF",
 		"symbolIcon.propertyForeground": "#df8670",
@@ -182,30 +182,30 @@
 		"symbolIcon.textForeground": "#C792EA",
 		"symbolIcon.unitForeground": "#e67093",
 		"tab.activeBorder": "#880088",
-		"tab.border": "#241b2f00",				// -- editor 6.0 -- workbench background - dark plum
-		"tab.inactiveBackground": "#151726", 	// -- editor 6.1 -- editor background - dark grey
-		"terminal.ansiBlue": "#03edf9",		// -- editor 10 -- terminal blue - bright blue
-		"terminal.ansiBrightBlue": "#03edf9", 	// -- editor 10 -- terminal blue - bright blue
-		"terminal.ansiBrightCyan": "#03edf9",	// -- editor 10 -- terminal blue - bright blue
-		"terminal.ansiBrightGreen": "#72f1b8",	// -- editor 11 -- git green - bright mint
-		"terminal.ansiBrightMagenta": "#ff7edb",		// -- editor 9 -- highlights - pink
-		"terminal.ansiBrightRed": "#fe4450",	// -- editor 7 -- errors & deletes - trans red
+		"tab.border": "#241b2f00", // -- editor 6.0 -- workbench background - dark plum
+		"tab.inactiveBackground": "#181526", // -- editor 6.1 -- editor background - dark grey
+		"terminal.ansiBlue": "#03edf9", // -- editor 10 -- terminal blue - bright blue
+		"terminal.ansiBrightBlue": "#03edf9", // -- editor 10 -- terminal blue - bright blue
+		"terminal.ansiBrightCyan": "#03edf9", // -- editor 10 -- terminal blue - bright blue
+		"terminal.ansiBrightGreen": "#72f1b8", // -- editor 11 -- git green - bright mint
+		"terminal.ansiBrightMagenta": "#ff7edb", // -- editor 9 -- highlights - pink
+		"terminal.ansiBrightRed": "#fe4450", // -- editor 7 -- errors & deletes - trans red
 		"terminal.ansiBrightYellow": "#fede5d",
-		"terminal.ansiCyan": "#03edf9",		// -- editor 10 -- terminal blue - bright blue
-		"terminal.ansiGreen": "#72f1b8",		// -- editor 11 -- git green - bright mint
-		"terminal.ansiMagenta": "#ff7edb",				// -- editor 9 -- highlights - pink
-		"terminal.ansiRed": "#fe4450",		 	// -- editor 7 -- errors & deletes - trans red
-		"terminal.ansiYellow": "#f97e72", 				// -- editor 1 -- core ui orange - core orange,
-		"terminal.foreground": "#FFFFFF", 				// -- editor 2 -- important text - pure white,
-		"terminal.selectionBackground": "#ffffff20", 	// -- editor 5 -- general - translucent colorless
-		"terminalCursor.background": "#FFFFFF", 		// -- editor 2 -- important text - pure white,
-		"terminalCursor.foreground": "#03edf9",		// -- editor 10 -- terminal blue - bright blue
-		"textLink.activeForeground": "#ff7edb",		// -- editor 9 -- highlights - pink
-		"textLink.foreground": "#f97e72", 				// -- editor 1 -- core ui orange - core orange
-		"titleBar.activeBackground": "#241b2f",		// -- editor 6.0 -- warm workbench background - dark plum
+		"terminal.ansiCyan": "#03edf9", // -- editor 10 -- terminal blue - bright blue
+		"terminal.ansiGreen": "#72f1b8", // -- editor 11 -- git green - bright mint
+		"terminal.ansiMagenta": "#ff7edb", // -- editor 9 -- highlights - pink
+		"terminal.ansiRed": "#fe4450", // -- editor 7 -- errors & deletes - trans red
+		"terminal.ansiYellow": "#f97e72", // -- editor 1 -- core ui orange - core orange,
+		"terminal.foreground": "#FFFFFF", // -- editor 2 -- important text - pure white,
+		"terminal.selectionBackground": "#ffffff20", // -- editor 5 -- general - translucent colorless
+		"terminalCursor.background": "#FFFFFF", // -- editor 2 -- important text - pure white,
+		"terminalCursor.foreground": "#03edf9", // -- editor 10 -- terminal blue - bright blue
+		"textLink.activeForeground": "#ff7edb", // -- editor 9 -- highlights - pink
+		"textLink.foreground": "#f97e72", // -- editor 1 -- core ui orange - core orange
+		"titleBar.activeBackground": "#241b2f", // -- editor 6.0 -- warm workbench background - dark plum
 		"titleBar.inactiveBackground": "#262332",
-		"walkThrough.embeddedEditorBackground": "#232530",	// -- editor 12 other backgrounds - alt charcoal grey
-		"widget.shadow": "#2a2139",					// -- editor 8 -- workbench contrast boxes - plum
+		"walkThrough.embeddedEditorBackground": "#232530", // -- editor 12 other backgrounds - alt charcoal grey
+		"widget.shadow": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
 	},
 	"tokenColors": [
 		{
@@ -404,7 +404,7 @@
 				"keyword.operator.arrow.skinny",
 				"keyword.operator.arrow.fat",
 				"keyword.operator.borrow", // rust borrow symbol
-				"keyword.operator.optional",// "?" non-null unwrap in most langs (like js)
+				"keyword.operator.optional", // "?" non-null unwrap in most langs (like js)
 				"keyword.operator.question", // "?" non-null unwrap in rust
 				"keyword.operator.dereference", // "*" pointer dereference
 				"keyword.operator.existential",
@@ -414,7 +414,6 @@
 				"keyword.control.new",
 				"storage.modifier.pointer",
 				"keyword.operator.bitwise.cpp", // slightly inappropriate, but I'd rather overemphasize "&" references to make them stand out than underemphasize them just so that bitwise operators can be technically consistently colored.
-
 			],
 			"settings": {
 				"foreground": "#d84bff", // special color - radioactive purple
@@ -566,7 +565,7 @@
 			"name": "Block level mutable (read-write) variables",
 			"scope": [
 				"variable",
-                "string constant.other.placeholder",
+				"string constant.other.placeholder",
 				"variable.other.readwrite"
 			],
 			"settings": {
@@ -580,14 +579,13 @@
 			],
 			"settings": {
 				"foreground": "#6985ae",
-
 			}
 		},
 		// {
 		// 	"name": "Block level mutable (read-write) variables",
 		// 	"scope": [
 		// 		"variable",
-        //         "string constant.other.placeholder",
+		//         "string constant.other.placeholder",
 		// 		"variable.other.readwrite"
 		// 	],
 		// 	"settings": {
@@ -655,7 +653,6 @@
 				// "support.type.sys-types"
 				// "entity.name.type.struct",
 				// "entity.name.namespace",
-
 			],
 			"settings": {
 				"foreground": "#e6c274", // -- primary 1 -- user & library types - gold
@@ -703,7 +700,7 @@
 			"settings": {
 				"foreground": "#f0e8bf" // -- primary 14 -- core language types - light yellow
 			}
-		},// succeed
+		}, // succeed
 		{
 			"name": "CSS Class and Support (as built-in types)",
 			"scope": [
@@ -956,7 +953,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFFFFF" , // -- primary 12 -- just this now - light grey green
+				"foreground": "#FFFFFF", // -- primary 12 -- just this now - light grey green
 			}
 		},
 		{
