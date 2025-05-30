@@ -529,6 +529,7 @@
 				"method",
 				"support.function",
 				"meta.property-value.scss",
+				"variable.parameter.function",
 			],
 			"settings": {
 				"foreground": "#82AAFF", // -- primary 4 -- functions & methods - sky blue
