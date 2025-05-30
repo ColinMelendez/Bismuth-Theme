@@ -1,0 +1,78 @@
+
+// Drizzle Studio Theme for https://drizzle.studio/customize
+// Share link: https://drizzle.studio/themes/LZ66EIOzzS_-nSv9QNGxT
+{
+    "interface-settings": {
+        // Main options
+        "page-background": "#2C1736",
+        "background": "#181526",
+        "foreground": "#DBDBDB",
+        "popover": "#181526",
+        "popover-foreground": "#EAEAEA",
+        "primary": "#EAEAEA",
+        "primary-foreground": "#000000",
+        "secondary": "#574574",
+        "secondary-foreground": "#EAEAEA",
+        "muted": "#37294D",
+        "muted-foreground": "#A5A7AC",
+        "accent": "#37294D",
+        "accent-foreground": "#FAFAFA",
+        "destructive": "#F97E72",
+        "destructive-foreground": "#000000",
+        "border": "#574574",
+        "input": "#181526",
+        "table-font": "Ubuntu Mono",
+        "interface-font": "System-UI",
+
+        // Advanced options
+        "filters-toolbar": "#181526",
+        "edit": "#37294D",
+        "edit-foreground": "#EAEAEA",
+        "submit": "#72F1B8",
+        "submit-foreground": "#000000",
+        "radius": "in-editor-slider-30%",
+        "table-vertical-lines": "visible",
+        "icon-set": "default",
+        "buttons-variant": "default"
+    },
+    "editor-settings":
+    {
+        // JSON Editor Colors
+        "number-color": "#E8708A",
+        "property-name": "#C792EA",
+        "cursor": "#89DDFF",
+        "line-number": "#7D7984",
+        "string-value": "#A2D979",
+        "boolean-value": "#F05776",
+        "highlight-background": "#6D3776",
+        "editor-background": "#181526",
+        "selection": "#342727",
+        "fold-gutter-hover": "#574574",
+
+        // Ts Editor Colors
+        "ts-variable-color": "#BAC6C3",
+        "ts-method-color": "#82AAFF",
+        "ts-function-color": "#82AAFF",
+        "ts-property-color": "#E6967E",
+        "ts-definition-color": "#E6967E",
+        "ts-number-value-color": "#E8708A",
+        "ts-string-value-color": "#A2D979",
+        "ts-boolean-value-color": "#F05776",
+        "ts-keyword-color": "#C792EA",
+        "ts-import-color": "#E8708A",
+        "ts-declaration-color": "#BAC6C3",
+        "ts-interface-color": "#E6C274",
+        "ts-type-color": "#FFF6C7",
+
+        // SQL Editor Colors
+        "sql-variable-color": "#BAC6C3",
+        "sql-method-color": "#C792EA",
+        "sql-property-color": "#E6967E",
+        "sql-number-value-color": "#E8708A",
+        "sql-string-value-color": "#A2D979",
+        "sql-boolean-value-color": "#F05776",
+
+        // editor font
+        "editor-font": "Menlo"
+    }
+}
