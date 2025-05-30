@@ -323,6 +323,8 @@
 				"keyword.operator.final",
 				"keyword.operator.bitwise",
 				"keyword.operator.of",
+				"punctuation.definition.function.nix",
+				"keyword.operator.expression.infer",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -377,6 +379,7 @@
 				"keyword.operator.range",
 				"keyword.operator.ternary",
 				"keyword.other.package.java",
+				"keyword.operator.nix",
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
@@ -414,6 +417,7 @@
 				"keyword.control.new",
 				"storage.modifier.pointer",
 				"keyword.operator.bitwise.cpp", // slightly inappropriate, but I'd rather overemphasize "&" references to make them stand out than underemphasize them just so that bitwise operators can be technically consistently colored.
+				"keyword.operator.bind",
 			],
 			"settings": {
 				"foreground": "#d84bff", // special color - radioactive purple
@@ -444,7 +448,7 @@
 				"variable.other.enummember",
 			],
 			"settings": {
-				"foreground": "#e8708a",
+				"foreground": "#e8708a", // -- primary 7 -- tags & immutable variables -  light coral red
 				"fontStyle": "italic bold"
 			}
 		},
