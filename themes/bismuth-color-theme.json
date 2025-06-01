@@ -499,6 +499,7 @@
 			"scope": [
 				// global constants that use a convention of being all-caps (like rust)
 				"constant.other.caps", // a5
+				"keyword.control.flow.block-scalar.literal.yaml", // super-specific case where we don't want italicization
 			],
 			"settings": {
 				"fontStyle": "" // none - clears inherited fontStyle
