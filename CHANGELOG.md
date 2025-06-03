@@ -4,6 +4,7 @@
 
 The theme is still not what I would call "finished" even though it has more total features than most themes. I anticipate somewhat significant evolutions to continue, though from here on, all major distinct versions will be kept live.
 
+- 0.7.8: improved coloring consistency of lifetime annotation and the self keyword across textmate and semantic schemes
 - 0.7.6: fixed improper italicization for | in yaml
 - 0.7.5: fixed some overlooked nix operator and punctuation tokens, and missing typescript infer keyword
 - 0.7.2: Fixed outdated extension metadata

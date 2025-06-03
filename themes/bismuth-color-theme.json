@@ -325,6 +325,9 @@
 				"keyword.operator.of",
 				"punctuation.definition.function.nix",
 				"keyword.operator.expression.infer",
+				"punctuation.definition.lifetime",
+				"entity.name.type.lifetime",
+				"storage.modifier.lifetime",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -444,7 +447,6 @@
 			"name": "identifiers in import statements",
 			"scope": [
 				"meta.import variable.other.readwrite.alias",
-				// "selfKeyword" // was always being overridden
 				"variable.other.enummember",
 			],
 			"settings": {
@@ -469,6 +471,8 @@
 				"source.makefile",
 				"support.variable.property.ts",
 				"support.variable.property.js",
+				"variable.language.self",
+				"selfKeyword",
 			],
 			"settings": {
 				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
@@ -738,7 +742,6 @@
 			"name": "Language methods",
 			"scope": [
 				"variable.language",
-				"variable.language.self",
 				"meta.property-value.media-query",
 			],
 			"settings": {
@@ -1265,6 +1268,10 @@
 		},
 		"variable.mutable": {
 			"foreground": "#ef7354",
+			"fontStyle": "italic"
+		},
+		"selfKeyword": {
+			"foreground": "#ea7790",
 			"fontStyle": "italic"
 		}
 	}
