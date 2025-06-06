@@ -328,6 +328,7 @@
 				"punctuation.definition.lifetime",
 				"entity.name.type.lifetime",
 				"storage.modifier.lifetime",
+				"support.variable.property.importmeta",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
