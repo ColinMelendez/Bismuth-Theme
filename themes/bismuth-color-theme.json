@@ -451,7 +451,7 @@
 				"variable.other.enummember",
 			],
 			"settings": {
-				"foreground": "#e8708a", // -- primary 7 -- tags & immutable variables -  light coral red
+				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
 				"fontStyle": "italic bold"
 			}
 		},
@@ -577,7 +577,8 @@
 			"scope": [
 				"variable",
 				"string constant.other.placeholder",
-				"variable.other.readwrite"
+				"variable.other.readwrite",
+				"variable.other.object",
 			],
 			"settings": {
 				"foreground": "#e6967e", // -- primary 8 -- mutable variables -  faded orange <alt
