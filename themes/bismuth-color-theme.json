@@ -329,6 +329,8 @@
 				"entity.name.type.lifetime",
 				"storage.modifier.lifetime",
 				"support.variable.property.importmeta",
+				"keyword.operator.expression.is",
+				"keyword.operator.module.all",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
