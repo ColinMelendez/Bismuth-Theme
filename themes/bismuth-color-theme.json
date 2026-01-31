@@ -330,7 +330,7 @@
 				"storage.modifier.lifetime",
 				"support.variable.property.importmeta",
 				"keyword.operator.expression.is",
-				"keyword.operator.module.all",
+				"keyword.operator.python",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -476,6 +476,7 @@
 				"support.variable.property.js",
 				"variable.language.self",
 				"selfKeyword",
+				"support.variable.magic.python",
 			],
 			"settings": {
 				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
