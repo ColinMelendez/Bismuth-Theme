@@ -463,6 +463,8 @@
 				// immutable properties of objects (sorta their own domain of literals)
 				"support.constant.property",
 				"variable.other.object.property.ts", // <-- questionable if there may be more edge cases related to this one. <-
+				"variable.other.object.property.tsx", // <-- questionable if there may be more edge cases related to this one. <-
+				"variable.other.object.property.js", // <-- questionable if there may be more edge cases related to this one. <-
 				// moved the html / jsx tag color to separate it from local constants visually
 				"entity.name.tag", // a1
 				"meta.tag.sgml", // a2
@@ -473,6 +475,7 @@
 				"constant.other.caps", // a5
 				"source.makefile",
 				"support.variable.property.ts",
+				"support.variable.property.tsx",
 				"support.variable.property.js",
 				"variable.language.self",
 				"selfKeyword",
@@ -738,6 +741,7 @@
 				"entity.name.module.js",
 				"variable.import.parameter.js",
 				"variable.other.class.js",
+				"keyword.operator.expression.import"
 			],
 			"settings": {
 				"foreground": "#89DDFF" // -- primary 5 -- operators & punctuation  - turquoise blue
