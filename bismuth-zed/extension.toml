@@ -1,0 +1,7 @@
+id = "bismuth"
+name = "Bismuth"
+version = "0.0.1"
+schema_version = 1
+authors = ["Colin Melendez"]
+description = "A dark, colorful, warm-leaning, easy-on-the-eyes theme"
+repository = "https://github.com/your-name/my-zed-extension"
