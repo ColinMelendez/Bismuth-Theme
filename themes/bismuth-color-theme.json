@@ -1282,6 +1282,12 @@
 		"selfKeyword": {
 			"foreground": "#ea7790",
 			"fontStyle": "italic"
+		},
+		"selfTypeKeyword": {
+			"foreground": "#e6c274"
+		},
+		"label": {
+			"foreground": "#ea7790",
 		}
 	}
 }
