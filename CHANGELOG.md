@@ -4,11 +4,12 @@
 
 The theme is still not what I would call "finished" even though it has more total features than most themes. I anticipate somewhat significant evolutions to continue, though from here on, all major distinct versions will be kept live.
 
-- 0.8.0: Added support for the selfTypeKeyword semantic token and the label semantic token. Applicable to rust.
+- 0.9.0: Changed the coloring of the "this" keyword to match "self"
+- 0.8.0: Added support for the "selfTypeKeyword" semantic token and the "label" semantic token. Applicable to rust.
 - 0.7.11: Fixed underspecified "variable.other.object" selector
-- 0.7.9: Added missing importmeta keyword
-- 0.7.8: Improved coloring consistency of lifetime annotation and the self keyword across textmate and semantic schemes
-- 0.7.6: fixed improper italicization for | in yaml
+- 0.7.9: Added missing "importmeta" keyword
+- 0.7.8: Improved coloring consistency of lifetime annotation and the "self" keyword across textmate and semantic schemes
+- 0.7.6: fixed improper italicization for "|" in yaml
 - 0.7.5: fixed some overlooked nix operator and punctuation tokens, and missing typescript infer keyword
 - 0.7.2: Fixed outdated extension metadata
 - 0.7.0: Returned to the original warm background color

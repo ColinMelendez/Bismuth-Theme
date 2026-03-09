@@ -480,6 +480,7 @@
 				"variable.language.self",
 				"selfKeyword",
 				"support.variable.magic.python",
+				"variable.language.this",
 			],
 			"settings": {
 				"foreground": "#ea7790", // -- primary 7 -- tags & immutable variables -  light coral red
