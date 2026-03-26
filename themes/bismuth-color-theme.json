@@ -386,6 +386,8 @@
 				"keyword.operator.ternary",
 				"keyword.other.package.java",
 				"keyword.operator.nix",
+				"keyword.operator.pattern.case.shell",
+				"keyword.operator.pattern.case.default.shell",
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
@@ -439,7 +441,7 @@
 			// the singular ! operator is difficult too see
 			"name": "special operators - logical",
 			"scope": [
-				"keyword.operator.logical"
+				"keyword.operator.logical",
 			],
 			"settings": {
 				"foreground": "#ac71ff", // special color - slightly stronger keyword purple
