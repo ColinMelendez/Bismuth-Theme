@@ -331,6 +331,11 @@
 				"support.variable.property.importmeta",
 				"keyword.operator.expression.is",
 				"keyword.operator.python",
+				"keyword.ocaml",
+				"keyword.other.ocaml",
+				"keyword.language.dune",
+				"keyword.language.dune-project",
+				"keyword.language.dune-workspace",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -350,6 +355,7 @@
 			"name": "decorators (macro stuff)",
 			"scope": [
 				"entity.name.decorator",
+				"keyword.other.attribute.ocaml",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -388,6 +394,9 @@
 				"keyword.operator.nix",
 				"keyword.operator.pattern.case.shell",
 				"keyword.operator.pattern.case.default.shell",
+				"keyword.operator.ocaml",
+				"keyword.operator.attribute.ocaml",
+				"constant.character.printf.ocaml",
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
@@ -674,6 +683,7 @@
 				// "support.type.sys-types"
 				// "entity.name.type.struct",
 				// "entity.name.namespace",
+				"constant.language.polymorphic-variant.ocaml",
 			],
 			"settings": {
 				"foreground": "#e6c274", // -- primary 1 -- user & library types - gold
@@ -702,6 +712,7 @@
 			// distinction for namespaces
 			"scope": [
 				"entity.name.namespace",
+				"constant.language.capital-identifier.ocaml",
 			],
 			"settings": {
 				"foreground": "#707679f8",
