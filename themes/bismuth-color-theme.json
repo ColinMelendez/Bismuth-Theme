@@ -204,7 +204,6 @@
 		"textLink.foreground": "#f97e72", // -- editor 1 -- core ui orange - core orange
 		"titleBar.activeBackground": "#241b2f", // -- editor 6.0 -- warm workbench background - dark plum
 		"titleBar.inactiveBackground": "#262332",
-		"walkThrough.embeddedEditorBackground": "#232530", // -- editor 12 other backgrounds - alt charcoal grey
 		"widget.shadow": "#2a2139", // -- editor 8 -- workbench contrast boxes - plum
 	},
 	"tokenColors": [
@@ -356,7 +355,7 @@
 			"scope": [
 				"entity.name.decorator",
 				"keyword.other.attribute.ocaml",
-				"keyword.operator.extension.ocaml",
+				"keyword.other.extension.ocaml",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
