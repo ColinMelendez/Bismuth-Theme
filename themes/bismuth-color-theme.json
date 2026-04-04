@@ -356,6 +356,7 @@
 			"scope": [
 				"entity.name.decorator",
 				"keyword.other.attribute.ocaml",
+				"keyword.operator.extension.ocaml",
 			],
 			"settings": {
 				"foreground": "#C792EA", // -- primary 6 -- keywords & symbols - cs lavender
@@ -397,6 +398,7 @@
 				"keyword.operator.ocaml",
 				"keyword.operator.attribute.ocaml",
 				"constant.character.printf.ocaml",
+				"keyword.operator.extension.ocaml",
 			],
 			"settings": {
 				// alts: "#89DDFF" (less saturation)
